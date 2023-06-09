@@ -20,18 +20,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class LoginCogmento {
+public class cogmento {
+	
+	String username_object = 'Object Repository/cogmento/createContact/input_Login_email'
+	String password_object = 'Object Repository/cogmento/createContact/input_Login_password'
+	String loginBtn_object = 'Object Repository/cogmento/createContact/div_Login'
+	String setting_btn_object = 'Object Repository/cogmento/createContact/i_Free account_settings icon'
+	String logout_btn_object = 'Object Repository/cogmento/createContact/span_Log Out'
 	@Keyword
-	public Login(String usernameObject,String passwordObject,String loginbtnObject,String username,String password) {
-		WebUI.setText(findTestObject(usernameObject), username)
-		WebUI.setText(findTestObject(passwordObject), password)
-		WebUI.click(findTestObject(loginbtnObject))
-	}
-
-	@Keyword
-	public DoNotText(object,flag,text) {
-		if(flag=='true') {
-			WebUI.click(findTestObject(object,[('text') : text]))
+	void logout() {
+		try {
+			WebUI.waitForPageLoad(5)
+			WebUI.click(findTestObject(setting_btn_object))
+			WebUI.click(findTestObject(logout_btn_object))
+			WebUI.verifyTextPresent('Forgot your password?', false)
 		}
+		catch (Exception e) {
+			WebUI.click(findTestObject(setting_btn_object))
+			WebUI.click(findTestObject(logout_btn_object))
+			WebUI.verifyTextPresent('Forgot your password?', false)
+		}
+	}
+	@Keyword
+	void Login(String username,String password) {
+		WebUI.setText(findTestObject(username_object), username)
+		WebUI.setText(findTestObject(password_object), password)
+		WebUI.click(findTestObject(loginBtn_object))
 	}
 }

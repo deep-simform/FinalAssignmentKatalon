@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+updatecontact,Chrome 109.0.0.0,,,2023-06-09 19:19:03,2023-06-09 19:19:22,19.404s,ERROR
+,,,,,,,
+Test Cases/updateContact,Chrome 109.0.0.0,,,2023-06-09 19:19:22,2023-06-09 19:19:22,0.153s,ERROR
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-09 19:19:22,2023-06-09 19:19:22,0.022s,ERROR
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-09 19:19:22,2023-06-09 19:19:22,0.021s,ERROR
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-09 19:19:22,2023-06-09 19:19:22,0.102s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-09 19:19:22,2023-06-09 19:19:22,0.001s,PASSED

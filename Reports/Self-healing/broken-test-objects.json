@@ -9,6 +9,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Email_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/cogmento/createContact/input_Login_email",
+      "brokenLocator": "//input[@name\u003d\u0027email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/cogmento/createContact/input_Login_email_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/cogmento/createContact/input_Login_password",
+      "brokenLocator": "//input[@name\u003d\u0027password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/cogmento/createContact/input_Login_password_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/cogmento/createContact/div_Login",
+      "brokenLocator": "//div[@id\u003d\u0027ui\u0027]/div/div/form/div/div[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/cogmento/createContact/div_Login_position.png"
     }
   ]
 }

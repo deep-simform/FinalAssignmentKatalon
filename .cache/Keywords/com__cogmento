@@ -1,51 +1,17 @@
 {
-  "keywordFileContentHash": "42A89711FC8ABEAFF2B0B7E3DE0F9550",
+  "keywordFileContentHash": "F5894D1D60FFEB61817D00D41E468762",
   "keywordClasses": [
     {
-      "name": "com.LoginCogmento",
+      "name": "com.cogmento",
       "keywordMethods": [
+        {
+          "name": "logout",
+          "parameters": [],
+          "javadoc": ""
+        },
         {
           "name": "Login",
           "parameters": [
-            {
-              "name": "usernameObject",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "passwordObject",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "loginbtnObject",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
             {
               "name": "username",
               "initialExpression": "",
@@ -68,51 +34,6 @@
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
                 "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            }
-          ],
-          "javadoc": ""
-        },
-        {
-          "name": "DoNotText",
-          "parameters": [
-            {
-              "name": "object",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.Object",
-                "unresolvedClassName": "java.lang.Object",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": true,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "flag",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.Object",
-                "unresolvedClassName": "java.lang.Object",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": true,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            },
-            {
-              "name": "text",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.Object",
-                "unresolvedClassName": "java.lang.Object",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": true,
                 "genericsTypes": [],
                 "errorOnParsing": false
               }

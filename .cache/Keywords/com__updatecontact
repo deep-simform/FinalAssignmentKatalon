@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "70B4760D3611FE8F4F5AC7ECF7C63004",
+  "keywordClasses": [
+    {
+      "name": "com.updatecontact",
+      "keywordMethods": [
+        {
+          "name": "updateForm",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

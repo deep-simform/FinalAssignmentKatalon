@@ -14,60 +14,25 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
+import internal.GlobalVariable
+
+import org.eclipse.persistence.annotations.Customizer
 import org.openqa.selenium.Keys as Keys
 
 WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.URL, false)
 
 assert WebUI.getWindowTitle() == 'Cogmento CRM'
 
-WebUI.click(findTestObject('Object Repository/cogmento/updateContact/Page_Cogmento CRM/i_Calendar_users icon'))
-
-WebUI.mouseOver(findTestObject('cogmento/createContact/i_Free account_settings icon'))
-
-WebUI.click(findTestObject('Object Repository/cogmento/updateContact/Page_Cogmento CRM/a_Kunj Prafulkumar Kaneria'))
-
-WebUI.click(findTestObject('Object Repository/cogmento/updateContact/Page_Cogmento CRM/i_Kunj Kaneria_edit icon'))
-
-WebUI.click(findTestObject('Object Repository/cogmento/updateContact/Page_Cogmento CRM/button_Public'))
-
-WebUI.click(findTestObject('Object Repository/cogmento/updateContact/Page_Cogmento CRM/button_Save'))
-
-WebUI.verifyTextPresent("Only you can see this record.", false)
+CustomKeywords.'com.updatecontact.updateForm'()
 
 @com.kms.katalon.core.annotation.SetUp
 void login() {
     WebUI.navigateToUrl(GlobalVariable.URL)
-
-    String username_object = 'Object Repository/cogmento/createContact/input_Login_email'
-
-    String password_object = 'Object Repository/cogmento/createContact/input_Login_password'
-
-    String loginBtn_object = 'Object Repository/cogmento/createContact/div_Login'
-
-    CustomKeywords.'com.LoginCogmento.Login'(username_object, password_object, loginBtn_object, GlobalVariable.username, 
-        GlobalVariable.password)
-}
+	CustomKeywords.'com.cogmento.Login'(GlobalVariable.username, GlobalVariable.password)
+	}
 
 @com.kms.katalon.core.annotation.TearDown
 void logout() {
-    try {
-        WebUI.waitForPageLoad(5)
-
-        WebUI.click(findTestObject('Object Repository/cogmento/createContact/i_Free account_settings icon'))
-
-        WebUI.click(findTestObject('Object Repository/cogmento/createContact/span_Log Out'))
-
-        WebUI.waitForPageLoad(5)
-
-        WebUI.verifyTextPresent('Forgot your password?', false)
-    }
-    catch (Exception e) {
-        WebUI.click(findTestObject('Object Repository/cogmento/createContact/i_Free account_settings icon'))
-
-        WebUI.click(findTestObject('Object Repository/cogmento/createContact/span_Log Out'))
-
-        WebUI.verifyTextPresent('Forgot your password?', false)
-    } 
+	CustomKeywords.'com.cogmento.logout'()
 }
 

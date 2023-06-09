@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+updatecontact,Chrome 109.0.0.0,,,2023-06-09 19:20:02,2023-06-09 19:20:24,22.427s,PASSED
+,,,,,,,
+Test Cases/updateContact,Chrome 109.0.0.0,,,2023-06-09 19:20:03,2023-06-09 19:20:24,21.363s,PASSED
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-09 19:20:03,2023-06-09 19:20:03,0.128s,PASSED
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-09 19:20:03,2023-06-09 19:20:09,6.196s,PASSED
+"verifyMatch(getUrl(), URL, false)",Chrome 109.0.0.0,,,2023-06-09 19:20:09,2023-06-09 19:20:09,0.033s,PASSED
+"assert getWindowTitle() == ""Cogmento CRM""",Chrome 109.0.0.0,,,2023-06-09 19:20:09,2023-06-09 19:20:09,0.017s,PASSED
+com.updatecontact.updateForm(),Chrome 109.0.0.0,,,2023-06-09 19:20:09,2023-06-09 19:20:21,11.177s,PASSED
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-09 19:20:21,2023-06-09 19:20:24,3.788s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-09 19:20:24,2023-06-09 19:20:24,0.001s,PASSED
