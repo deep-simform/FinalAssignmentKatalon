@@ -50,12 +50,10 @@ catch (Exception e) {
 @com.kms.katalon.core.annotation.SetUp
 void login() {
     WebUI.navigateToUrl(GlobalVariable.URL)
-//	CustomKeywords.'com.CreateContact.Login'(GlobalVariable.username, GlobalVariable.password)
 	CustomKeywords.'com.cogmento.Login'(GlobalVariable.username, GlobalVariable.password)
 }
 
 @com.kms.katalon.core.annotation.TearDown
 void logout() {
-//	CustomKeywords.'com.CreateContact.logout'()
 	CustomKeywords.'com.cogmento.logout'()
 }

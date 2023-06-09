@@ -21,7 +21,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class cogmento {
-	
+
 	String username_object = 'Object Repository/cogmento/createContact/input_Login_email'
 	String password_object = 'Object Repository/cogmento/createContact/input_Login_password'
 	String loginBtn_object = 'Object Repository/cogmento/createContact/div_Login'
