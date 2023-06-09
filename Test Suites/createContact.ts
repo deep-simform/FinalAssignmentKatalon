@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>createContact</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>160d3a27-7e74-4822-acf4-033c9b609d60</testSuiteGuid>
+   <testCaseLink>
+      <guid>6e6b605a-84c8-4f81-9438-66fde73626cc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/createContact</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0dacd725-f229-470c-b417-d3dcf6aa19ad</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/testdata</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>0dacd725-f229-470c-b417-d3dcf6aa19ad</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>FirstName</value>
+         <variableId>a4c24ff3-47f1-4ba4-aba8-4c5b0f9c6419</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0dacd725-f229-470c-b417-d3dcf6aa19ad</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>LastName</value>
+         <variableId>5d5b040a-fd1a-4231-ad17-0f48fe5d9d00</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+createContact,,,,2023-06-09 09:56:53,2023-06-09 09:56:56,2.491s,ERROR
+,,,,,,,
+Test Cases/createContact,,,,2023-06-09 09:56:55,2023-06-09 09:56:55,0.097s,ERROR
+Start setup action : login,,,,2023-06-09 09:56:55,2023-06-09 09:56:55,0.010s,ERROR
+Start tear down : logout,,,,2023-06-09 09:56:55,2023-06-09 09:56:55,0.076s,PASSED
+,,,,,,,
+Test Cases/createContact,,,,2023-06-09 09:56:55,2023-06-09 09:56:55,0.121s,ERROR
+Start setup action : login,,,,2023-06-09 09:56:55,2023-06-09 09:56:55,0.014s,ERROR
+Start tear down : logout,,,,2023-06-09 09:56:55,2023-06-09 09:56:55,0.093s,PASSED
+,,,,,,,
+Test Cases/createContact,,,,2023-06-09 09:56:56,2023-06-09 09:56:56,0.044s,ERROR
+Start setup action : login,,,,2023-06-09 09:56:56,2023-06-09 09:56:56,0.005s,ERROR
+Start tear down : logout,,,,2023-06-09 09:56:56,2023-06-09 09:56:56,0.033s,PASSED

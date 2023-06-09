@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="createContact" time="54.632" tests="3" failures="0" errors="0">
+   <testsuite name="createContact" tests="3" failures="0" errors="0" time="54.632" skipped="0" timestamp="2023-06-09 10:07:02" hostname="deep - SF-CPU-460" id="Test Suites/createContact">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/deep/git/FinalAssignmentKatalon/Reports/20230609_100659/createContact/20230609_100700"/>
+         <property name="logFiles" value="/home/deep/git/FinalAssignmentKatalon/Reports/20230609_100659/createContact/20230609_100700/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="deep - SF-CPU-460"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 109.0.0.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="df9b3414163d72975b08bd8d387b39f5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/createContact" time="20.732" classname="Test Cases/createContact" status="PASSED">
+         <system-out><![CDATA[2023-06-09 10:07:03 - [TEST_CASE][PASSED] - Test Cases/createContact: Test Cases/createContact
+
+2023-06-09 10:07:04 - [TEST_STEP][PASSED] - Start listener action : maximize: Current window maximized
+
+2023-06-09 10:07:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-09 10:07:04 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-09 10:07:04 - [TEST_STEP][PASSED] - Start setup action : login: Method 'login' complete successfully
+
+2023-06-09 10:07:04 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://ui.cogmento.com' successfully
+
+2023-06-09 10:07:07 - [MESSAGE][PASSED] - Navigate to 'https://ui.cogmento.com' successfully
+
+2023-06-09 10:07:07 - [TEST_STEP][PASSED] - username_object = "Object Repository/cogmento/createContact/input_Login_email": null
+
+2023-06-09 10:07:07 - [TEST_STEP][PASSED] - password_object = "Object Repository/cogmento/createContact/input_Login_password": null
+
+2023-06-09 10:07:07 - [TEST_STEP][PASSED] - loginBtn_object = "Object Repository/cogmento/createContact/div_Login": null
+
+2023-06-09 10:07:07 - [TEST_STEP][PASSED] - com.LoginCogmento.Login(username_object, password_object, loginBtn_object, username, password): com.LoginCogmento.Login is PASSED
+
+2023-06-09 10:07:08 - [MESSAGE][PASSED] - Text 'deep.p@simformsolutions.com' is set on object 'Object Repository/cogmento/createContact/input_Login_email'
+
+2023-06-09 10:07:09 - [MESSAGE][PASSED] - Text 'Deep@123' is set on object 'Object Repository/cogmento/createContact/input_Login_password'
+
+2023-06-09 10:07:09 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/div_Login' is clicked on
+
+2023-06-09 10:07:09 - [MESSAGE][PASSED] - com.LoginCogmento.Login is PASSED
+
+2023-06-09 10:07:09 - [MESSAGE][PASSED] - Method 'login' complete successfully
+
+2023-06-09 10:07:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/i_Calendar_users icon")): Object: 'Object Repository/cogmento/createContact/i_Calendar_users icon' is clicked on
+
+2023-06-09 10:07:14 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/i_Calendar_users icon' is clicked on
+
+2023-06-09 10:07:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/button_Create")): Object: 'Object Repository/cogmento/createContact/button_Create' is clicked on
+
+2023-06-09 10:07:15 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/button_Create' is clicked on
+
+2023-06-09 10:07:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/createContact/input_First Name_first_name"), FirstName): Text 'Deep' is set on object 'Object Repository/cogmento/createContact/input_First Name_first_name'
+
+2023-06-09 10:07:17 - [MESSAGE][PASSED] - Text 'Deep' is set on object 'Object Repository/cogmento/createContact/input_First Name_first_name'
+
+2023-06-09 10:07:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/createContact/input_Last Name_last_name"), LastName): Text 'Patel' is set on object 'Object Repository/cogmento/createContact/input_Last Name_last_name'
+
+2023-06-09 10:07:18 - [MESSAGE][PASSED] - Text 'Patel' is set on object 'Object Repository/cogmento/createContact/input_Last Name_last_name'
+
+2023-06-09 10:07:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/button_Save")): Object: 'Object Repository/cogmento/createContact/button_Save' is clicked on
+
+2023-06-09 10:07:18 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/button_Save' is clicked on
+
+2023-06-09 10:07:18 - [TEST_STEP][PASSED] - try: Text 'Deep Patel' is present on page 
+
+2023-06-09 10:07:18 - [TEST_STEP][PASSED] - verifyTextPresent(FirstName + " " + LastName, false): Text 'Deep Patel' is present on page 
+
+2023-06-09 10:07:19 - [MESSAGE][PASSED] - Text 'Deep Patel' is present on page 
+
+2023-06-09 10:07:19 - [TEST_STEP][PASSED] - Start tear down : logout: Method 'logout' complete successfully
+
+2023-06-09 10:07:19 - [TEST_STEP][PASSED] - try: Text 'Forgot your password?' is present on page 
+
+2023-06-09 10:07:19 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-06-09 10:07:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-06-09 10:07:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/i_Free account_settings icon")): Object: 'Object Repository/cogmento/createContact/i_Free account_settings icon' is clicked on
+
+2023-06-09 10:07:21 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/i_Free account_settings icon' is clicked on
+
+2023-06-09 10:07:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/span_Log Out")): Object: 'Object Repository/cogmento/createContact/span_Log Out' is clicked on
+
+2023-06-09 10:07:21 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/span_Log Out' is clicked on
+
+2023-06-09 10:07:21 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-06-09 10:07:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-06-09 10:07:21 - [TEST_STEP][PASSED] - verifyTextPresent("Forgot your password?", false): Text 'Forgot your password?' is present on page 
+
+2023-06-09 10:07:24 - [MESSAGE][PASSED] - Text 'Forgot your password?' is present on page 
+
+2023-06-09 10:07:24 - [MESSAGE][PASSED] - Method 'logout' complete successfully
+
+2023-06-09 10:07:24 - [TEST_STEP][PASSED] - Start listener action : assertmessage: null
+
+2023-06-09 10:07:24 - [TEST_STEP][PASSED] - println("Testcase Run successfully."): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/createContact" time="16.58" classname="Test Cases/createContact" status="PASSED">
+         <system-out><![CDATA[2023-06-09 10:07:24 - [TEST_CASE][PASSED] - Test Cases/createContact: Test Cases/createContact
+
+2023-06-09 10:07:24 - [TEST_STEP][PASSED] - Start listener action : maximize: Current window maximized
+
+2023-06-09 10:07:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-09 10:07:24 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-09 10:07:24 - [TEST_STEP][PASSED] - Start setup action : login: Method 'login' complete successfully
+
+2023-06-09 10:07:24 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://ui.cogmento.com' successfully
+
+2023-06-09 10:07:26 - [MESSAGE][PASSED] - Navigate to 'https://ui.cogmento.com' successfully
+
+2023-06-09 10:07:26 - [TEST_STEP][PASSED] - username_object = "Object Repository/cogmento/createContact/input_Login_email": null
+
+2023-06-09 10:07:26 - [TEST_STEP][PASSED] - password_object = "Object Repository/cogmento/createContact/input_Login_password": null
+
+2023-06-09 10:07:26 - [TEST_STEP][PASSED] - loginBtn_object = "Object Repository/cogmento/createContact/div_Login": null
+
+2023-06-09 10:07:26 - [TEST_STEP][PASSED] - com.LoginCogmento.Login(username_object, password_object, loginBtn_object, username, password): com.LoginCogmento.Login is PASSED
+
+2023-06-09 10:07:27 - [MESSAGE][PASSED] - Text 'deep.p@simformsolutions.com' is set on object 'Object Repository/cogmento/createContact/input_Login_email'
+
+2023-06-09 10:07:27 - [MESSAGE][PASSED] - Text 'Deep@123' is set on object 'Object Repository/cogmento/createContact/input_Login_password'
+
+2023-06-09 10:07:28 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/div_Login' is clicked on
+
+2023-06-09 10:07:28 - [MESSAGE][PASSED] - com.LoginCogmento.Login is PASSED
+
+2023-06-09 10:07:28 - [MESSAGE][PASSED] - Method 'login' complete successfully
+
+2023-06-09 10:07:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/i_Calendar_users icon")): Object: 'Object Repository/cogmento/createContact/i_Calendar_users icon' is clicked on
+
+2023-06-09 10:07:30 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/i_Calendar_users icon' is clicked on
+
+2023-06-09 10:07:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/button_Create")): Object: 'Object Repository/cogmento/createContact/button_Create' is clicked on
+
+2023-06-09 10:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/button_Create' is clicked on
+
+2023-06-09 10:07:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/createContact/input_First Name_first_name"), FirstName): Text 'Dharm' is set on object 'Object Repository/cogmento/createContact/input_First Name_first_name'
+
+2023-06-09 10:07:33 - [MESSAGE][PASSED] - Text 'Dharm' is set on object 'Object Repository/cogmento/createContact/input_First Name_first_name'
+
+2023-06-09 10:07:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/createContact/input_Last Name_last_name"), LastName): Text 'Patel' is set on object 'Object Repository/cogmento/createContact/input_Last Name_last_name'
+
+2023-06-09 10:07:34 - [MESSAGE][PASSED] - Text 'Patel' is set on object 'Object Repository/cogmento/createContact/input_Last Name_last_name'
+
+2023-06-09 10:07:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/button_Save")): Object: 'Object Repository/cogmento/createContact/button_Save' is clicked on
+
+2023-06-09 10:07:35 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/button_Save' is clicked on
+
+2023-06-09 10:07:35 - [TEST_STEP][PASSED] - try: Text 'Dharm Patel' is present on page 
+
+2023-06-09 10:07:35 - [TEST_STEP][PASSED] - verifyTextPresent(FirstName + " " + LastName, false): Text 'Dharm Patel' is present on page 
+
+2023-06-09 10:07:37 - [MESSAGE][PASSED] - Text 'Dharm Patel' is present on page 
+
+2023-06-09 10:07:37 - [TEST_STEP][PASSED] - Start tear down : logout: Method 'logout' complete successfully
+
+2023-06-09 10:07:37 - [TEST_STEP][PASSED] - try: Text 'Forgot your password?' is present on page 
+
+2023-06-09 10:07:37 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-06-09 10:07:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-06-09 10:07:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/i_Free account_settings icon")): Object: 'Object Repository/cogmento/createContact/i_Free account_settings icon' is clicked on
+
+2023-06-09 10:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/i_Free account_settings icon' is clicked on
+
+2023-06-09 10:07:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/span_Log Out")): Object: 'Object Repository/cogmento/createContact/span_Log Out' is clicked on
+
+2023-06-09 10:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/span_Log Out' is clicked on
+
+2023-06-09 10:07:38 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-06-09 10:07:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-06-09 10:07:38 - [TEST_STEP][PASSED] - verifyTextPresent("Forgot your password?", false): Text 'Forgot your password?' is present on page 
+
+2023-06-09 10:07:41 - [MESSAGE][PASSED] - Text 'Forgot your password?' is present on page 
+
+2023-06-09 10:07:41 - [MESSAGE][PASSED] - Method 'logout' complete successfully
+
+2023-06-09 10:07:41 - [TEST_STEP][PASSED] - Start listener action : assertmessage: null
+
+2023-06-09 10:07:41 - [TEST_STEP][PASSED] - println("Testcase Run successfully."): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/createContact" time="15.937" classname="Test Cases/createContact" status="PASSED">
+         <system-out><![CDATA[2023-06-09 10:07:41 - [TEST_CASE][PASSED] - Test Cases/createContact: Test Cases/createContact
+
+2023-06-09 10:07:41 - [TEST_STEP][PASSED] - Start listener action : maximize: Current window maximized
+
+2023-06-09 10:07:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-09 10:07:41 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-09 10:07:41 - [TEST_STEP][PASSED] - Start setup action : login: Method 'login' complete successfully
+
+2023-06-09 10:07:41 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://ui.cogmento.com' successfully
+
+2023-06-09 10:07:43 - [MESSAGE][PASSED] - Navigate to 'https://ui.cogmento.com' successfully
+
+2023-06-09 10:07:43 - [TEST_STEP][PASSED] - username_object = "Object Repository/cogmento/createContact/input_Login_email": null
+
+2023-06-09 10:07:43 - [TEST_STEP][PASSED] - password_object = "Object Repository/cogmento/createContact/input_Login_password": null
+
+2023-06-09 10:07:43 - [TEST_STEP][PASSED] - loginBtn_object = "Object Repository/cogmento/createContact/div_Login": null
+
+2023-06-09 10:07:43 - [TEST_STEP][PASSED] - com.LoginCogmento.Login(username_object, password_object, loginBtn_object, username, password): com.LoginCogmento.Login is PASSED
+
+2023-06-09 10:07:44 - [MESSAGE][PASSED] - Text 'deep.p@simformsolutions.com' is set on object 'Object Repository/cogmento/createContact/input_Login_email'
+
+2023-06-09 10:07:45 - [MESSAGE][PASSED] - Text 'Deep@123' is set on object 'Object Repository/cogmento/createContact/input_Login_password'
+
+2023-06-09 10:07:45 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/div_Login' is clicked on
+
+2023-06-09 10:07:45 - [MESSAGE][PASSED] - com.LoginCogmento.Login is PASSED
+
+2023-06-09 10:07:45 - [MESSAGE][PASSED] - Method 'login' complete successfully
+
+2023-06-09 10:07:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/i_Calendar_users icon")): Object: 'Object Repository/cogmento/createContact/i_Calendar_users icon' is clicked on
+
+2023-06-09 10:07:47 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/i_Calendar_users icon' is clicked on
+
+2023-06-09 10:07:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/button_Create")): Object: 'Object Repository/cogmento/createContact/button_Create' is clicked on
+
+2023-06-09 10:07:48 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/button_Create' is clicked on
+
+2023-06-09 10:07:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/createContact/input_First Name_first_name"), FirstName): Text 'Kunj' is set on object 'Object Repository/cogmento/createContact/input_First Name_first_name'
+
+2023-06-09 10:07:50 - [MESSAGE][PASSED] - Text 'Kunj' is set on object 'Object Repository/cogmento/createContact/input_First Name_first_name'
+
+2023-06-09 10:07:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/createContact/input_Last Name_last_name"), LastName): Text 'Kaneria' is set on object 'Object Repository/cogmento/createContact/input_Last Name_last_name'
+
+2023-06-09 10:07:51 - [MESSAGE][PASSED] - Text 'Kaneria' is set on object 'Object Repository/cogmento/createContact/input_Last Name_last_name'
+
+2023-06-09 10:07:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/button_Save")): Object: 'Object Repository/cogmento/createContact/button_Save' is clicked on
+
+2023-06-09 10:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/button_Save' is clicked on
+
+2023-06-09 10:07:51 - [TEST_STEP][PASSED] - try: Text 'Kunj Kaneria' is present on page 
+
+2023-06-09 10:07:51 - [TEST_STEP][PASSED] - verifyTextPresent(FirstName + " " + LastName, false): Text 'Kunj Kaneria' is present on page 
+
+2023-06-09 10:07:53 - [MESSAGE][PASSED] - Text 'Kunj Kaneria' is present on page 
+
+2023-06-09 10:07:53 - [TEST_STEP][PASSED] - Start tear down : logout: Method 'logout' complete successfully
+
+2023-06-09 10:07:53 - [TEST_STEP][PASSED] - try: Text 'Forgot your password?' is present on page 
+
+2023-06-09 10:07:53 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-06-09 10:07:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-06-09 10:07:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/i_Free account_settings icon")): Object: 'Object Repository/cogmento/createContact/i_Free account_settings icon' is clicked on
+
+2023-06-09 10:07:54 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/i_Free account_settings icon' is clicked on
+
+2023-06-09 10:07:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/span_Log Out")): Object: 'Object Repository/cogmento/createContact/span_Log Out' is clicked on
+
+2023-06-09 10:07:54 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/span_Log Out' is clicked on
+
+2023-06-09 10:07:54 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-06-09 10:07:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-06-09 10:07:54 - [TEST_STEP][PASSED] - verifyTextPresent("Forgot your password?", false): Text 'Forgot your password?' is present on page 
+
+2023-06-09 10:07:57 - [MESSAGE][PASSED] - Text 'Forgot your password?' is present on page 
+
+2023-06-09 10:07:57 - [MESSAGE][PASSED] - Method 'logout' complete successfully
+
+2023-06-09 10:07:57 - [TEST_STEP][PASSED] - Start listener action : assertmessage: null
+
+2023-06-09 10:07:57 - [TEST_STEP][PASSED] - println("Testcase Run successfully."): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-09 10:07:02 - [TEST_SUITE][PASSED] - createContact: Test Cases/createContact]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
