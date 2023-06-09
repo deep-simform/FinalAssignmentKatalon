@@ -3,6 +3,7 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import javax.xml.bind.annotation.XmlElementDecl.GLOBAL as GLOBAL
 import com.kms.katalon.core.annotation.BeforeTestSuite as BeforeTestSuite
 import com.kms.katalon.core.annotation.SetUp as SetUp
 import com.kms.katalon.core.annotation.TearDown as TearDown
@@ -21,6 +22,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.URL, false)
+
+assert WebUI.getWindowTitle() == 'Cogmento CRM'
+
+String doNotTextObject = 'Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Text'
+String doNotMailObject = 'Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Email'
+String doNotCallObject = 'Object Repository/cogmento/test/Page_Cogmento CRM/Page_Cogmento CRM/label_Do not Call'
+
 WebUI.click(findTestObject('Object Repository/cogmento/createContact/i_Calendar_users icon'))
 
 WebUI.click(findTestObject('Object Repository/cogmento/createContact/button_Create'))
@@ -29,23 +38,49 @@ WebUI.setText(findTestObject('Object Repository/cogmento/createContact/input_Fir
 
 WebUI.setText(findTestObject('Object Repository/cogmento/createContact/input_Last Name_last_name'), LastName)
 
+WebUI.setText(findTestObject('Object Repository/cogmento/test/Page_Cogmento CRM/input_Middle Name(s)_middle_name'), MiddleName)
+
+WebUI.setText(findTestObject('Object Repository/cogmento/test/Page_Cogmento CRM/input_Email_value'), Email)
+
+CustomKeywords.'com.LoginCogmento.DoNotText'(doNotCallObject,Call,'Do not Call')
+CustomKeywords.'com.LoginCogmento.DoNotText'(doNotTextObject,Text,'Do not Text')
+CustomKeywords.'com.LoginCogmento.DoNotText'(doNotMailObject,DoEmail,'Do not Mail')
+
+
+WebUI.setText(findTestObject('Object Repository/cogmento/test/Page_Cogmento CRM/input_Birthday_day'), BirthDay)
+
+WebUI.click(findTestObject('Object Repository/cogmento/test/Page_Cogmento CRM/div_October JanuaryFebruaryMarchAprilMayJun_aa3d2b'))
+
+WebUI.click(findTestObject('Object Repository/cogmento/test/Page_Cogmento CRM/span_December', [('EmpMonth') : BirthMonth]))
+
+WebUI.setText(findTestObject('Object Repository/cogmento/test/Page_Cogmento CRM/input_December_year'), BirthYear)
+
 WebUI.click(findTestObject('Object Repository/cogmento/createContact/button_Save'))
 
-//WebUI.click(findTestObject('Object Repository/cogmento/createContact/i_Calendar_users icon_1'))
 try {
+	WebUI.mouseOver(findTestObject('cogmento/createContact/i_Free account_settings icon'))
+	
     WebUI.verifyTextPresent((FirstName + ' ') + LastName, false)
+	
+    WebUI.verifyTextPresent(MiddleName, false)
+	
+	WebUI.verifyTextPresent(Email, false)
+	
+	WebUI.verifyTextPresent(BirthDay+' '+BirthMonth+' '+BirthYear, false)
+	
 }
 catch (Exception e) {
     WebUI.refresh()
-
+	WebUI.mouseOver(findTestObject('cogmento/createContact/i_Free account_settings icon'))
     WebUI.verifyTextPresent((FirstName + ' ') + LastName, false)
+	
+	WebUI.verifyTextPresent(MiddleName, false)
+	
+	WebUI.verifyTextPresent(Email, false)
+	
+	WebUI.verifyTextPresent(BirthDay+' '+BirthMonth+' '+BirthYear, false)
+	
 } 
-
-//WebUI.click(findTestObject('cogmento/createContact/input_Login_email'))
-//
-//WebUI.click(findTestObject('cogmento/createContact/input_Login_password'))
-//
-//WebUI.click(findTestObject('cogmento/createContact/div_Login'))
 
 @com.kms.katalon.core.annotation.SetUp
 void login() {
@@ -82,4 +117,3 @@ void logout() {
         WebUI.verifyTextPresent('Forgot your password?', false)
     } 
 }
-

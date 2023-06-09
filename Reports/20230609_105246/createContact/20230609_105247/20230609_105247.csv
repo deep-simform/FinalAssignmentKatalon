@@ -1,0 +1,74 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+createContact,Chrome 109.0.0.0,,,2023-06-09 10:52:49,2023-06-09 10:54:02,1m - 13.386s,PASSED
+,,,,,,,
+Test Cases/createContact,Chrome 109.0.0.0,,,2023-06-09 10:52:50,2023-06-09 10:53:18,27.979s,PASSED
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-09 10:52:50,2023-06-09 10:52:50,0.127s,PASSED
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-09 10:52:50,2023-06-09 10:52:56,5.819s,PASSED
+"verifyMatch(getUrl(), URL, false)",Chrome 109.0.0.0,,,2023-06-09 10:52:56,2023-06-09 10:52:56,0.031s,PASSED
+"assert getWindowTitle() == ""Cogmento CRM""",Chrome 109.0.0.0,,,2023-06-09 10:52:56,2023-06-09 10:52:56,0.017s,PASSED
+"click(findTestObject(""Object Repository/cogmento/createContact/i_Calendar_users icon""))",Chrome 109.0.0.0,,,2023-06-09 10:52:56,2023-06-09 10:53:00,4.131s,PASSED
+"click(findTestObject(""Object Repository/cogmento/createContact/button_Create""))",Chrome 109.0.0.0,,,2023-06-09 10:53:00,2023-06-09 10:53:01,1.276s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/createContact/input_First Name_first_name""), FirstName)",Chrome 109.0.0.0,,,2023-06-09 10:53:01,2023-06-09 10:53:03,1.757s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/createContact/input_Last Name_last_name""), LastName)",Chrome 109.0.0.0,,,2023-06-09 10:53:03,2023-06-09 10:53:04,1.083s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_Middle Name(s)_middle_name""), ""Rakeshbhai"")",Chrome 109.0.0.0,,,2023-06-09 10:53:04,2023-06-09 10:53:05,0.993s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_Email_value""), ""deep@gmail.com"")",Chrome 109.0.0.0,,,2023-06-09 10:53:05,2023-06-09 10:53:06,1.321s,PASSED
+"click(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Call""))",Chrome 109.0.0.0,,,2023-06-09 10:53:06,2023-06-09 10:53:07,0.502s,PASSED
+"click(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Text""))",Chrome 109.0.0.0,,,2023-06-09 10:53:07,2023-06-09 10:53:07,0.424s,PASSED
+"click(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Email""))",Chrome 109.0.0.0,,,2023-06-09 10:53:07,2023-06-09 10:53:08,0.419s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_Birthday_day""), ""22"")",Chrome 109.0.0.0,,,2023-06-09 10:53:08,2023-06-09 10:53:09,0.898s,PASSED
+"click(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/div_October JanuaryFebruaryMarchAprilMayJun_aa3d2b""))",Chrome 109.0.0.0,,,2023-06-09 10:53:09,2023-06-09 10:53:09,0.393s,PASSED
+"month = ""February""",Chrome 109.0.0.0,,,2023-06-09 10:53:09,2023-06-09 10:53:09,0.001s,PASSED
+"click(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/span_December"", [""EmpMonth"":month]))",Chrome 109.0.0.0,,,2023-06-09 10:53:09,2023-06-09 10:53:10,0.585s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_December_year""), ""2002"")",Chrome 109.0.0.0,,,2023-06-09 10:53:10,2023-06-09 10:53:11,1.140s,PASSED
+"click(findTestObject(""Object Repository/cogmento/createContact/button_Save""))",Chrome 109.0.0.0,,,2023-06-09 10:53:11,2023-06-09 10:53:11,0.525s,PASSED
+try,Chrome 109.0.0.0,,,2023-06-09 10:53:11,2023-06-09 10:53:14,2.549s,PASSED
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-09 10:53:14,2023-06-09 10:53:18,3.957s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-09 10:53:18,2023-06-09 10:53:18,0.002s,PASSED
+,,,,,,,
+Test Cases/createContact,Chrome 109.0.0.0,,,2023-06-09 10:53:18,2023-06-09 10:53:40,21.904s,PASSED
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-09 10:53:18,2023-06-09 10:53:18,0.012s,PASSED
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-09 10:53:18,2023-06-09 10:53:21,3.468s,PASSED
+"verifyMatch(getUrl(), URL, false)",Chrome 109.0.0.0,,,2023-06-09 10:53:21,2023-06-09 10:53:21,0.007s,PASSED
+"assert getWindowTitle() == ""Cogmento CRM""",Chrome 109.0.0.0,,,2023-06-09 10:53:21,2023-06-09 10:53:21,0.008s,PASSED
+"click(findTestObject(""Object Repository/cogmento/createContact/i_Calendar_users icon""))",Chrome 109.0.0.0,,,2023-06-09 10:53:21,2023-06-09 10:53:24,2.450s,PASSED
+"click(findTestObject(""Object Repository/cogmento/createContact/button_Create""))",Chrome 109.0.0.0,,,2023-06-09 10:53:24,2023-06-09 10:53:25,1.065s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/createContact/input_First Name_first_name""), FirstName)",Chrome 109.0.0.0,,,2023-06-09 10:53:25,2023-06-09 10:53:26,1.346s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/createContact/input_Last Name_last_name""), LastName)",Chrome 109.0.0.0,,,2023-06-09 10:53:26,2023-06-09 10:53:27,1.067s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_Middle Name(s)_middle_name""), ""Rakeshbhai"")",Chrome 109.0.0.0,,,2023-06-09 10:53:27,2023-06-09 10:53:29,1.196s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_Email_value""), ""deep@gmail.com"")",Chrome 109.0.0.0,,,2023-06-09 10:53:29,2023-06-09 10:53:30,1.190s,PASSED
+"click(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Call""))",Chrome 109.0.0.0,,,2023-06-09 10:53:30,2023-06-09 10:53:30,0.505s,PASSED
+"click(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Text""))",Chrome 109.0.0.0,,,2023-06-09 10:53:30,2023-06-09 10:53:31,0.416s,PASSED
+"click(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Email""))",Chrome 109.0.0.0,,,2023-06-09 10:53:31,2023-06-09 10:53:31,0.406s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_Birthday_day""), ""22"")",Chrome 109.0.0.0,,,2023-06-09 10:53:31,2023-06-09 10:53:32,0.882s,PASSED
+"click(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/div_October JanuaryFebruaryMarchAprilMayJun_aa3d2b""))",Chrome 109.0.0.0,,,2023-06-09 10:53:32,2023-06-09 10:53:32,0.474s,PASSED
+"month = ""February""",Chrome 109.0.0.0,,,2023-06-09 10:53:32,2023-06-09 10:53:32,0.000s,PASSED
+"click(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/span_December"", [""EmpMonth"":month]))",Chrome 109.0.0.0,,,2023-06-09 10:53:32,2023-06-09 10:53:33,0.669s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_December_year""), ""2002"")",Chrome 109.0.0.0,,,2023-06-09 10:53:33,2023-06-09 10:53:34,1.036s,PASSED
+"click(findTestObject(""Object Repository/cogmento/createContact/button_Save""))",Chrome 109.0.0.0,,,2023-06-09 10:53:34,2023-06-09 10:53:35,0.532s,PASSED
+try,Chrome 109.0.0.0,,,2023-06-09 10:53:35,2023-06-09 10:53:36,1.047s,PASSED
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-09 10:53:36,2023-06-09 10:53:40,4.107s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-09 10:53:40,2023-06-09 10:53:40,0.000s,PASSED
+,,,,,,,
+Test Cases/createContact,Chrome 109.0.0.0,,,2023-06-09 10:53:40,2023-06-09 10:54:02,22.309s,PASSED
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-09 10:53:40,2023-06-09 10:53:40,0.015s,PASSED
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-09 10:53:40,2023-06-09 10:53:43,3.494s,PASSED
+"verifyMatch(getUrl(), URL, false)",Chrome 109.0.0.0,,,2023-06-09 10:53:43,2023-06-09 10:53:43,0.008s,PASSED
+"assert getWindowTitle() == ""Cogmento CRM""",Chrome 109.0.0.0,,,2023-06-09 10:53:43,2023-06-09 10:53:43,0.010s,PASSED
+"click(findTestObject(""Object Repository/cogmento/createContact/i_Calendar_users icon""))",Chrome 109.0.0.0,,,2023-06-09 10:53:43,2023-06-09 10:53:46,2.391s,PASSED
+"click(findTestObject(""Object Repository/cogmento/createContact/button_Create""))",Chrome 109.0.0.0,,,2023-06-09 10:53:46,2023-06-09 10:53:47,1.087s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/createContact/input_First Name_first_name""), FirstName)",Chrome 109.0.0.0,,,2023-06-09 10:53:47,2023-06-09 10:53:48,1.420s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/createContact/input_Last Name_last_name""), LastName)",Chrome 109.0.0.0,,,2023-06-09 10:53:48,2023-06-09 10:53:49,1.013s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_Middle Name(s)_middle_name""), ""Rakeshbhai"")",Chrome 109.0.0.0,,,2023-06-09 10:53:49,2023-06-09 10:53:50,1.089s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_Email_value""), ""deep@gmail.com"")",Chrome 109.0.0.0,,,2023-06-09 10:53:50,2023-06-09 10:53:52,1.293s,PASSED
+"click(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Call""))",Chrome 109.0.0.0,,,2023-06-09 10:53:52,2023-06-09 10:53:52,0.520s,PASSED
+"click(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Text""))",Chrome 109.0.0.0,,,2023-06-09 10:53:52,2023-06-09 10:53:53,0.423s,PASSED
+"click(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Email""))",Chrome 109.0.0.0,,,2023-06-09 10:53:53,2023-06-09 10:53:53,0.419s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_Birthday_day""), ""22"")",Chrome 109.0.0.0,,,2023-06-09 10:53:53,2023-06-09 10:53:54,0.877s,PASSED
+"click(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/div_October JanuaryFebruaryMarchAprilMayJun_aa3d2b""))",Chrome 109.0.0.0,,,2023-06-09 10:53:54,2023-06-09 10:53:54,0.475s,PASSED
+"month = ""February""",Chrome 109.0.0.0,,,2023-06-09 10:53:54,2023-06-09 10:53:54,0.000s,PASSED
+"click(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/span_December"", [""EmpMonth"":month]))",Chrome 109.0.0.0,,,2023-06-09 10:53:54,2023-06-09 10:53:55,0.643s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_December_year""), ""2002"")",Chrome 109.0.0.0,,,2023-06-09 10:53:55,2023-06-09 10:53:56,1.131s,PASSED
+"click(findTestObject(""Object Repository/cogmento/createContact/button_Save""))",Chrome 109.0.0.0,,,2023-06-09 10:53:56,2023-06-09 10:53:57,0.422s,PASSED
+try,Chrome 109.0.0.0,,,2023-06-09 10:53:57,2023-06-09 10:53:59,2.032s,PASSED
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-09 10:53:59,2023-06-09 10:54:02,3.530s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-09 10:54:02,2023-06-09 10:54:02,0.000s,PASSED

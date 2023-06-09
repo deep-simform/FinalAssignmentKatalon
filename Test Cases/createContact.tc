@@ -17,6 +17,54 @@
       <value></value>
       <variableId>5d5b040a-fd1a-4231-ad17-0f48fe5d9d00</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0cb4ca46-9608-491a-a897-f02509657540</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2ba5e978-4d44-4faf-bbe0-35b3e22a34de</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bf589abf-8ae8-4b2f-bd00-6218e7df7ecf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9bc6eb09-3800-4936-adbc-95ee7efe818f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c96a8925-91c0-4b2f-b0ed-f0f5539a43c5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e443d642-5106-4bd0-ad89-e29a79c962a8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6b50f7f7-4922-4cc1-90df-51ead0a0ddb1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>174f37b1-8fb3-4c04-9e44-a78e073d76db</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -30,5 +78,61 @@
       <id>5d5b040a-fd1a-4231-ad17-0f48fe5d9d00</id>
       <masked>false</masked>
       <name>LastName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0cb4ca46-9608-491a-a897-f02509657540</id>
+      <masked>false</masked>
+      <name>MiddleName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2ba5e978-4d44-4faf-bbe0-35b3e22a34de</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bf589abf-8ae8-4b2f-bd00-6218e7df7ecf</id>
+      <masked>false</masked>
+      <name>Call</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9bc6eb09-3800-4936-adbc-95ee7efe818f</id>
+      <masked>false</masked>
+      <name>Text</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c96a8925-91c0-4b2f-b0ed-f0f5539a43c5</id>
+      <masked>false</masked>
+      <name>DoEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e443d642-5106-4bd0-ad89-e29a79c962a8</id>
+      <masked>false</masked>
+      <name>BirthDay</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6b50f7f7-4922-4cc1-90df-51ead0a0ddb1</id>
+      <masked>false</masked>
+      <name>BirthMonth</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>174f37b1-8fb3-4c04-9e44-a78e073d76db</id>
+      <masked>false</masked>
+      <name>BirthYear</name>
    </variable>
 </TestCaseEntity>

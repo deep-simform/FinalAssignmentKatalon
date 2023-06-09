@@ -27,4 +27,11 @@ public class LoginCogmento {
 		WebUI.setText(findTestObject(passwordObject), password)
 		WebUI.click(findTestObject(loginbtnObject))
 	}
+
+	@Keyword
+	public DoNotText(object,flag,text) {
+		if(flag=='true') {
+			WebUI.click(findTestObject(object,[('text') : text]))
+		}
+	}
 }

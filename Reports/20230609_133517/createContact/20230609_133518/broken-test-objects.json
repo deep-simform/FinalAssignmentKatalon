@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Email",
+      "brokenLocator": "//div[@class\u003d\u0027ui toggle checkbox\u0027]//label[contains(text(),\u0027Do not Mail\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027main-content\u0027]/div/div[2]/form/div[12]/div/div/div/label",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230609_133517/createContact/20230609_133518/Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Email_XPATH.png"
+    }
+  ]
+}

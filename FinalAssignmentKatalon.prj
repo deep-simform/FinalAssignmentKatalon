@@ -6,6 +6,7 @@
    <UUID>9fbe364c-9067-437f-8da0-61cfc9e66290</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/home/deep/git/FinalAssignmentKatalon/FinalAssignmentKatalon.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

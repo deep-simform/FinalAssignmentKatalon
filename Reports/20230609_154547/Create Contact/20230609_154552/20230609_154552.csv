@@ -1,0 +1,80 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create Contact,Firefox 113.0,,,2023-06-09 15:48:24,2023-06-09 15:49:47,1m - 23.396s,PASSED
+,,,,,,,
+Test Cases/createContact,Firefox 113.0,,,2023-06-09 15:48:27,2023-06-09 15:48:56,29.191s,PASSED
+Start listener action : maximize,Firefox 113.0,,,2023-06-09 15:48:27,2023-06-09 15:48:27,0.283s,PASSED
+Start setup action : login,Firefox 113.0,,,2023-06-09 15:48:27,2023-06-09 15:48:34,6.411s,PASSED
+"verifyMatch(getUrl(), URL, false)",Firefox 113.0,,,2023-06-09 15:48:34,2023-06-09 15:48:34,0.027s,PASSED
+"assert getWindowTitle() == ""Cogmento CRM""",Firefox 113.0,,,2023-06-09 15:48:34,2023-06-09 15:48:34,0.011s,PASSED
+"doNotTextObject = ""Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Text""",Firefox 113.0,,,2023-06-09 15:48:34,2023-06-09 15:48:34,0.000s,PASSED
+"doNotMailObject = ""Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Email""",Firefox 113.0,,,2023-06-09 15:48:34,2023-06-09 15:48:34,0.000s,PASSED
+"doNotCallObject = ""Object Repository/cogmento/test/Page_Cogmento CRM/Page_Cogmento CRM/label_Do not Call""",Firefox 113.0,,,2023-06-09 15:48:34,2023-06-09 15:48:34,0.001s,PASSED
+"click(findTestObject(""Object Repository/cogmento/createContact/i_Calendar_users icon""))",Firefox 113.0,,,2023-06-09 15:48:34,2023-06-09 15:48:37,3.695s,PASSED
+"click(findTestObject(""Object Repository/cogmento/createContact/button_Create""))",Firefox 113.0,,,2023-06-09 15:48:37,2023-06-09 15:48:39,1.213s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/createContact/input_First Name_first_name""), FirstName)",Firefox 113.0,,,2023-06-09 15:48:39,2023-06-09 15:48:40,1.056s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/createContact/input_Last Name_last_name""), LastName)",Firefox 113.0,,,2023-06-09 15:48:40,2023-06-09 15:48:40,0.783s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_Middle Name(s)_middle_name""), MiddleName)",Firefox 113.0,,,2023-06-09 15:48:40,2023-06-09 15:48:41,0.920s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_Email_value""), Email)",Firefox 113.0,,,2023-06-09 15:48:41,2023-06-09 15:48:42,0.935s,PASSED
+"com.LoginCogmento.DoNotText(doNotCallObject, Call, ""Do not Call"")",Firefox 113.0,,,2023-06-09 15:48:42,2023-06-09 15:48:43,0.638s,PASSED
+"com.LoginCogmento.DoNotText(doNotTextObject, Text, ""Do not Text"")",Firefox 113.0,,,2023-06-09 15:48:43,2023-06-09 15:48:43,0.507s,PASSED
+"com.LoginCogmento.DoNotText(doNotMailObject, DoEmail, ""Do not Mail"")",Firefox 113.0,,,2023-06-09 15:48:43,2023-06-09 15:48:43,0.000s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_Birthday_day""), BirthDay)",Firefox 113.0,,,2023-06-09 15:48:43,2023-06-09 15:48:44,0.522s,PASSED
+"click(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/div_October JanuaryFebruaryMarchAprilMayJun_aa3d2b""))",Firefox 113.0,,,2023-06-09 15:48:44,2023-06-09 15:48:44,0.457s,PASSED
+"click(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/span_December"", [""EmpMonth"":BirthMonth]))",Firefox 113.0,,,2023-06-09 15:48:44,2023-06-09 15:48:45,0.503s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_December_year""), BirthYear)",Firefox 113.0,,,2023-06-09 15:48:45,2023-06-09 15:48:46,0.616s,PASSED
+"click(findTestObject(""Object Repository/cogmento/createContact/button_Save""))",Firefox 113.0,,,2023-06-09 15:48:46,2023-06-09 15:48:46,0.515s,PASSED
+try,Firefox 113.0,,,2023-06-09 15:48:46,2023-06-09 15:48:50,3.792s,PASSED
+Start tear down : logout,Firefox 113.0,,,2023-06-09 15:48:50,2023-06-09 15:48:56,6.268s,PASSED
+Start listener action : assertmessage,Firefox 113.0,,,2023-06-09 15:48:56,2023-06-09 15:48:56,0.010s,PASSED
+,,,,,,,
+Test Cases/createContact,Firefox 113.0,,,2023-06-09 15:48:56,2023-06-09 15:49:22,25.346s,PASSED
+Start listener action : maximize,Firefox 113.0,,,2023-06-09 15:48:56,2023-06-09 15:48:56,0.017s,PASSED
+Start setup action : login,Firefox 113.0,,,2023-06-09 15:48:56,2023-06-09 15:49:00,3.577s,PASSED
+"verifyMatch(getUrl(), URL, false)",Firefox 113.0,,,2023-06-09 15:49:00,2023-06-09 15:49:00,0.005s,PASSED
+"assert getWindowTitle() == ""Cogmento CRM""",Firefox 113.0,,,2023-06-09 15:49:00,2023-06-09 15:49:00,0.003s,PASSED
+"doNotTextObject = ""Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Text""",Firefox 113.0,,,2023-06-09 15:49:00,2023-06-09 15:49:00,0.000s,PASSED
+"doNotMailObject = ""Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Email""",Firefox 113.0,,,2023-06-09 15:49:00,2023-06-09 15:49:00,0.000s,PASSED
+"doNotCallObject = ""Object Repository/cogmento/test/Page_Cogmento CRM/Page_Cogmento CRM/label_Do not Call""",Firefox 113.0,,,2023-06-09 15:49:00,2023-06-09 15:49:00,0.000s,PASSED
+"click(findTestObject(""Object Repository/cogmento/createContact/i_Calendar_users icon""))",Firefox 113.0,,,2023-06-09 15:49:00,2023-06-09 15:49:02,2.317s,PASSED
+"click(findTestObject(""Object Repository/cogmento/createContact/button_Create""))",Firefox 113.0,,,2023-06-09 15:49:02,2023-06-09 15:49:03,1.065s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/createContact/input_First Name_first_name""), FirstName)",Firefox 113.0,,,2023-06-09 15:49:03,2023-06-09 15:49:04,0.869s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/createContact/input_Last Name_last_name""), LastName)",Firefox 113.0,,,2023-06-09 15:49:04,2023-06-09 15:49:05,0.772s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_Middle Name(s)_middle_name""), MiddleName)",Firefox 113.0,,,2023-06-09 15:49:05,2023-06-09 15:49:06,0.842s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_Email_value""), Email)",Firefox 113.0,,,2023-06-09 15:49:06,2023-06-09 15:49:07,0.989s,PASSED
+"com.LoginCogmento.DoNotText(doNotCallObject, Call, ""Do not Call"")",Firefox 113.0,,,2023-06-09 15:49:07,2023-06-09 15:49:07,0.000s,PASSED
+"com.LoginCogmento.DoNotText(doNotTextObject, Text, ""Do not Text"")",Firefox 113.0,,,2023-06-09 15:49:07,2023-06-09 15:49:07,0.694s,PASSED
+"com.LoginCogmento.DoNotText(doNotMailObject, DoEmail, ""Do not Mail"")",Firefox 113.0,,,2023-06-09 15:49:07,2023-06-09 15:49:09,1.558s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_Birthday_day""), BirthDay)",Firefox 113.0,,,2023-06-09 15:49:09,2023-06-09 15:49:09,0.507s,PASSED
+"click(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/div_October JanuaryFebruaryMarchAprilMayJun_aa3d2b""))",Firefox 113.0,,,2023-06-09 15:49:09,2023-06-09 15:49:10,0.539s,PASSED
+"click(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/span_December"", [""EmpMonth"":BirthMonth]))",Firefox 113.0,,,2023-06-09 15:49:10,2023-06-09 15:49:10,0.497s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_December_year""), BirthYear)",Firefox 113.0,,,2023-06-09 15:49:10,2023-06-09 15:49:11,0.602s,PASSED
+"click(findTestObject(""Object Repository/cogmento/createContact/button_Save""))",Firefox 113.0,,,2023-06-09 15:49:11,2023-06-09 15:49:12,0.514s,PASSED
+try,Firefox 113.0,,,2023-06-09 15:49:12,2023-06-09 15:49:15,3.414s,PASSED
+Start tear down : logout,Firefox 113.0,,,2023-06-09 15:49:15,2023-06-09 15:49:22,6.541s,PASSED
+Start listener action : assertmessage,Firefox 113.0,,,2023-06-09 15:49:22,2023-06-09 15:49:22,0.000s,PASSED
+,,,,,,,
+Test Cases/createContact,Firefox 113.0,,,2023-06-09 15:49:22,2023-06-09 15:49:47,25.679s,PASSED
+Start listener action : maximize,Firefox 113.0,,,2023-06-09 15:49:22,2023-06-09 15:49:22,0.009s,PASSED
+Start setup action : login,Firefox 113.0,,,2023-06-09 15:49:22,2023-06-09 15:49:25,3.832s,PASSED
+"verifyMatch(getUrl(), URL, false)",Firefox 113.0,,,2023-06-09 15:49:25,2023-06-09 15:49:25,0.005s,PASSED
+"assert getWindowTitle() == ""Cogmento CRM""",Firefox 113.0,,,2023-06-09 15:49:25,2023-06-09 15:49:25,0.003s,PASSED
+"doNotTextObject = ""Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Text""",Firefox 113.0,,,2023-06-09 15:49:25,2023-06-09 15:49:25,0.001s,PASSED
+"doNotMailObject = ""Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Email""",Firefox 113.0,,,2023-06-09 15:49:25,2023-06-09 15:49:25,0.000s,PASSED
+"doNotCallObject = ""Object Repository/cogmento/test/Page_Cogmento CRM/Page_Cogmento CRM/label_Do not Call""",Firefox 113.0,,,2023-06-09 15:49:25,2023-06-09 15:49:25,0.000s,PASSED
+"click(findTestObject(""Object Repository/cogmento/createContact/i_Calendar_users icon""))",Firefox 113.0,,,2023-06-09 15:49:25,2023-06-09 15:49:28,2.591s,PASSED
+"click(findTestObject(""Object Repository/cogmento/createContact/button_Create""))",Firefox 113.0,,,2023-06-09 15:49:28,2023-06-09 15:49:29,1.072s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/createContact/input_First Name_first_name""), FirstName)",Firefox 113.0,,,2023-06-09 15:49:29,2023-06-09 15:49:30,0.845s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/createContact/input_Last Name_last_name""), LastName)",Firefox 113.0,,,2023-06-09 15:49:30,2023-06-09 15:49:31,0.802s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_Middle Name(s)_middle_name""), MiddleName)",Firefox 113.0,,,2023-06-09 15:49:31,2023-06-09 15:49:32,0.864s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_Email_value""), Email)",Firefox 113.0,,,2023-06-09 15:49:32,2023-06-09 15:49:33,0.983s,PASSED
+"com.LoginCogmento.DoNotText(doNotCallObject, Call, ""Do not Call"")",Firefox 113.0,,,2023-06-09 15:49:33,2023-06-09 15:49:33,0.001s,PASSED
+"com.LoginCogmento.DoNotText(doNotTextObject, Text, ""Do not Text"")",Firefox 113.0,,,2023-06-09 15:49:33,2023-06-09 15:49:33,0.000s,PASSED
+"com.LoginCogmento.DoNotText(doNotMailObject, DoEmail, ""Do not Mail"")",Firefox 113.0,,,2023-06-09 15:49:33,2023-06-09 15:49:34,1.538s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_Birthday_day""), BirthDay)",Firefox 113.0,,,2023-06-09 15:49:34,2023-06-09 15:49:35,0.507s,PASSED
+"click(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/div_October JanuaryFebruaryMarchAprilMayJun_aa3d2b""))",Firefox 113.0,,,2023-06-09 15:49:35,2023-06-09 15:49:35,0.444s,PASSED
+"click(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/span_December"", [""EmpMonth"":BirthMonth]))",Firefox 113.0,,,2023-06-09 15:49:35,2023-06-09 15:49:36,0.499s,PASSED
+"setText(findTestObject(""Object Repository/cogmento/test/Page_Cogmento CRM/input_December_year""), BirthYear)",Firefox 113.0,,,2023-06-09 15:49:36,2023-06-09 15:49:36,0.620s,PASSED
+"click(findTestObject(""Object Repository/cogmento/createContact/button_Save""))",Firefox 113.0,,,2023-06-09 15:49:36,2023-06-09 15:49:37,0.555s,PASSED
+try,Firefox 113.0,,,2023-06-09 15:49:37,2023-06-09 15:49:41,3.731s,PASSED
+Start tear down : logout,Firefox 113.0,,,2023-06-09 15:49:41,2023-06-09 15:49:47,6.762s,PASSED
+Start listener action : assertmessage,Firefox 113.0,,,2023-06-09 15:49:47,2023-06-09 15:49:47,0.000s,PASSED

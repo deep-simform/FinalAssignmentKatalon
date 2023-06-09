@@ -1,4 +1,4 @@
-FirstName,LastName
-Deep,Patel
-Dharm,Patel
-Kunj,Kaneria
+FirstName,LastName,MiddleName,Email,Call,Text,DoEmail,BirthDay,BirthMonth,BirthYear
+Deep,Patel,Rakeshbhai,deep@gmail.com,true,true,false,22,December,2001
+Dharm,Patel,Keyurkumar,dharm@gmail.com,false,true,true,13,January,2002
+Kunj,Kaneria,Prafulkumar,kunj@gmail.com,true',false,true,24,February,2003
