@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create And Update Contact" time="90.397" tests="3" failures="0" errors="0">
+   <testsuite name="Create And Update Contact" tests="3" failures="0" errors="0" time="90.397" skipped="0" timestamp="2023-06-12 10:34:53" hostname="deep - SF-CPU-460" id="Test Suites/Create And Update Contact">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/deep/git/FinalAssignmentKatalon/Reports/20230612_102529/Create And Update Contact/20230612_102536"/>
+         <property name="logFiles" value="/home/deep/git/FinalAssignmentKatalon/Reports/20230612_102529/Create And Update Contact/20230612_102536/execution0.log"/>
+         <property name="attachments" value="/home/deep/git/FinalAssignmentKatalon/Reports/20230612_102529/Create And Update Contact/20230612_102536/1686546314397.png, /home/deep/git/FinalAssignmentKatalon/Reports/20230612_102529/Create And Update Contact/20230612_102536/1686546318307.png, /home/deep/git/FinalAssignmentKatalon/Reports/20230612_102529/Create And Update Contact/20230612_102536/1686546322821.png, /home/deep/git/FinalAssignmentKatalon/Reports/20230612_102529/Create And Update Contact/20230612_102536/1686546338299.png, /home/deep/git/FinalAssignmentKatalon/Reports/20230612_102529/Create And Update Contact/20230612_102536/1686546343090.png, /home/deep/git/FinalAssignmentKatalon/Reports/20230612_102529/Create And Update Contact/20230612_102536/1686546358141.png, /home/deep/git/FinalAssignmentKatalon/Reports/20230612_102529/Create And Update Contact/20230612_102536/1686546363396.png, /home/deep/git/FinalAssignmentKatalon/Reports/20230612_102529/Create And Update Contact/20230612_102536/1686546378547.png, /home/deep/git/FinalAssignmentKatalon/Reports/20230612_102529/Create And Update Contact/20230612_102536/1686546383753.png"/>
+         <property name="hostName" value="deep - SF-CPU-460"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Firefox 114.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="95efe64a-e0dd-459e-83f1-4a289ec1dae2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/updateContact" time="20.289" classname="Test Cases/updateContact" status="PASSED">
+         <system-out><![CDATA[2023-06-12 10:35:22 - [TEST_CASE][PASSED] - Test Cases/updateContact: Test Cases/updateContact
+
+2023-06-12 10:35:22 - [TEST_STEP][PASSED] - Start listener action : maximize: Current window maximized
+
+2023-06-12 10:35:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-12 10:35:22 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-12 10:35:22 - [TEST_STEP][PASSED] - Start setup action : login: Method 'login' complete successfully
+
+2023-06-12 10:35:22 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://ui.cogmento.com/' successfully
+
+2023-06-12 10:35:24 - [MESSAGE][PASSED] - Navigate to 'https://ui.cogmento.com/' successfully
+
+2023-06-12 10:35:24 - [TEST_STEP][PASSED] - com.cogmento.Login(username, password): com.cogmento.Login is PASSED
+
+2023-06-12 10:35:25 - [MESSAGE][PASSED] - Text 'deep.p@simformsolutions.com' is set on object 'Object Repository/cogmento/createContact/input_Login_email'
+
+2023-06-12 10:35:26 - [MESSAGE][PASSED] - Text 'Deep@123' is set on object 'Object Repository/cogmento/createContact/input_Login_password'
+
+2023-06-12 10:35:27 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/div_Login' is clicked on
+
+2023-06-12 10:35:27 - [MESSAGE][PASSED] - com.cogmento.Login is PASSED
+
+2023-06-12 10:35:27 - [MESSAGE][PASSED] - Method 'login' complete successfully
+
+2023-06-12 10:35:27 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), URL, false): Actual text 'https://ui.cogmento.com/' and expected text 'https://ui.cogmento.com/' are matched 
+
+2023-06-12 10:35:27 - [MESSAGE][PASSED] - Current window's url is: 'https://ui.cogmento.com/'
+
+2023-06-12 10:35:27 - [MESSAGE][PASSED] - Actual text 'https://ui.cogmento.com/' and expected text 'https://ui.cogmento.com/' are matched 
+
+2023-06-12 10:35:27 - [TEST_STEP][PASSED] - assert getWindowTitle() == "Cogmento CRM": Current window's title is: 'Cogmento CRM'
+
+2023-06-12 10:35:27 - [MESSAGE][PASSED] - Current window's title is: 'Cogmento CRM'
+
+2023-06-12 10:35:27 - [TEST_STEP][PASSED] - com.updatecontact.updateForm(): com.updatecontact.updateForm is PASSED
+
+2023-06-12 10:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/updateContact/Page_Cogmento CRM/i_Calendar_users icon' is clicked on
+
+2023-06-12 10:35:30 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/i_Free account_settings icon' is hovered
+
+2023-06-12 10:35:31 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/i_Free account_settings icon' is hovered
+
+2023-06-12 10:35:31 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/updateContact/Page_Cogmento CRM/a_Kunj Prafulkumar Kaneria' is clicked on
+
+2023-06-12 10:35:32 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/updateContact/Page_Cogmento CRM/i_Kunj Kaneria_edit icon' is clicked on
+
+2023-06-12 10:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/updateContact/Page_Cogmento CRM/button_Public' is clicked on
+
+2023-06-12 10:35:34 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/updateContact/Page_Cogmento CRM/button_Save' is clicked on
+
+2023-06-12 10:35:36 - [MESSAGE][PASSED] - Text 'Only you can see this record.' is present on page 
+
+2023-06-12 10:35:36 - [MESSAGE][PASSED] - com.updatecontact.updateForm is PASSED
+
+2023-06-12 10:35:36 - [TEST_STEP][PASSED] - Start tear down : logout: Error occurred when try to run method 'logout' (Root cause: com.kms.katalon.core.exception.StepFailedException - com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cogmento/createContact/i_Free account_settings icon')
+
+2023-06-12 10:35:36 - [TEST_STEP][FAILED] - com.cogmento.logout(): Unable to click on object 'Object Repository/cogmento/createContact/i_Free account_settings icon'
+
+2023-06-12 10:35:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-06-12 10:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/i_Free account_settings icon' is clicked on
+
+2023-06-12 10:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/span_Log Out' is clicked on
+
+2023-06-12 10:35:38 - [MESSAGE][FAILED] - Text 'Forgot your password?' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Forgot your password?' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at com.cogmento.logout(cogmento.groovy:36)
+	at com.cogmento.invokeMethod(cogmento.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at updateContact.logout(updateContact:36)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:458)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:580)
+	at com.kms.katalon.core.main.TestCaseExecutor.internallyRunMethods(TestCaseExecutor.java:565)
+	at com.kms.katalon.core.main.TestCaseExecutor.onExecutionComplete(TestCaseExecutor.java:137)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686545736478.run(TempTestSuite1686545736478.groovy:36)
+)
+
+2023-06-12 10:35:38 - [MESSAGE][FAILED] - Unable to verify text 'Forgot your password?' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Forgot your password?' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at com.cogmento.logout(cogmento.groovy:36)
+	at com.cogmento.invokeMethod(cogmento.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at updateContact.logout(updateContact:36)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:458)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:580)
+	at com.kms.katalon.core.main.TestCaseExecutor.internallyRunMethods(TestCaseExecutor.java:565)
+	at com.kms.katalon.core.main.TestCaseExecutor.onExecutionComplete(TestCaseExecutor.java:137)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686545736478.run(TempTestSuite1686545736478.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Forgot your password?' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 24 more
+)
+[[ATTACHMENT|/home/deep/git/FinalAssignmentKatalon/Reports/20230612_102529/Create And Update Contact/20230612_102536/1686546338299.png]]
+
+2023-06-12 10:35:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='top-header-menu']/div[2]/div[2]/div/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 10:35:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/cogmento/createContact/i_Free account_settings icon'. Try using Self-healing.
+
+2023-06-12 10:35:39 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='top-header-menu']/div[2]/div[2]/div/i'.
+
+2023-06-12 10:35:40 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div/i'.
+
+2023-06-12 10:35:40 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='top-header-menu']/div[2]/div[2]/div/i'.
+
+2023-06-12 10:35:40 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div/i'.
+
+2023-06-12 10:35:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("top-header-menu")/div[@class="right menu"]/div[@class="ui buttons"]/div[@class="ui basic button floating item dropdown"]/i[@class="settings icon"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 10:35:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: i.settings.icon'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 10:35:43 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/cogmento/createContact/i_Free account_settings icon' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cogmento/createContact/i_Free account_settings icon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at com.cogmento.logout(cogmento.groovy:39)
+	at com.cogmento.invokeMethod(cogmento.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at updateContact.logout(updateContact:36)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:458)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:580)
+	at com.kms.katalon.core.main.TestCaseExecutor.internallyRunMethods(TestCaseExecutor.java:565)
+	at com.kms.katalon.core.main.TestCaseExecutor.onExecutionComplete(TestCaseExecutor.java:137)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686545736478.run(TempTestSuite1686545736478.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/cogmento/createContact/i_Free account_settings icon' located by '//div[@id='top-header-menu']/div[2]/div[2]/div/i' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at com.cogmento.logout(cogmento.groovy:39)
+	at com.cogmento.invokeMethod(cogmento.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1686300610294.logout(Script1686300610294.groovy:36)
+	... 15 more
+)
+[[ATTACHMENT|/home/deep/git/FinalAssignmentKatalon/Reports/20230612_102529/Create And Update Contact/20230612_102536/1686546343090.png]]
+
+2023-06-12 10:35:43 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/cogmento/createContact/i_Free account_settings icon'
+
+2023-06-12 10:35:43 - [MESSAGE][WARNING] - Error occurred when try to run method 'logout' (Root cause: com.kms.katalon.core.exception.StepFailedException - com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cogmento/createContact/i_Free account_settings icon')
+
+2023-06-12 10:35:43 - [TEST_STEP][PASSED] - Start listener action : assertmessage: null
+
+2023-06-12 10:35:43 - [TEST_STEP][PASSED] - println("Testcase Run successfully."): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/updateContact" time="20.313" classname="Test Cases/updateContact" status="PASSED">
+         <system-out><![CDATA[2023-06-12 10:35:43 - [TEST_CASE][PASSED] - Test Cases/updateContact: Test Cases/updateContact
+
+2023-06-12 10:35:43 - [TEST_STEP][PASSED] - Start listener action : maximize: Current window maximized
+
+2023-06-12 10:35:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-12 10:35:43 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-12 10:35:43 - [TEST_STEP][PASSED] - Start setup action : login: Method 'login' complete successfully
+
+2023-06-12 10:35:43 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://ui.cogmento.com/' successfully
+
+2023-06-12 10:35:45 - [MESSAGE][PASSED] - Navigate to 'https://ui.cogmento.com/' successfully
+
+2023-06-12 10:35:45 - [TEST_STEP][PASSED] - com.cogmento.Login(username, password): com.cogmento.Login is PASSED
+
+2023-06-12 10:35:45 - [MESSAGE][PASSED] - Text 'deep.p@simformsolutions.com' is set on object 'Object Repository/cogmento/createContact/input_Login_email'
+
+2023-06-12 10:35:46 - [MESSAGE][PASSED] - Text 'Deep@123' is set on object 'Object Repository/cogmento/createContact/input_Login_password'
+
+2023-06-12 10:35:47 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/div_Login' is clicked on
+
+2023-06-12 10:35:47 - [MESSAGE][PASSED] - com.cogmento.Login is PASSED
+
+2023-06-12 10:35:47 - [MESSAGE][PASSED] - Method 'login' complete successfully
+
+2023-06-12 10:35:47 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), URL, false): Actual text 'https://ui.cogmento.com/' and expected text 'https://ui.cogmento.com/' are matched 
+
+2023-06-12 10:35:47 - [MESSAGE][PASSED] - Current window's url is: 'https://ui.cogmento.com/'
+
+2023-06-12 10:35:47 - [MESSAGE][PASSED] - Actual text 'https://ui.cogmento.com/' and expected text 'https://ui.cogmento.com/' are matched 
+
+2023-06-12 10:35:47 - [TEST_STEP][PASSED] - assert getWindowTitle() == "Cogmento CRM": Current window's title is: 'Cogmento CRM'
+
+2023-06-12 10:35:47 - [MESSAGE][PASSED] - Current window's title is: 'Cogmento CRM'
+
+2023-06-12 10:35:47 - [TEST_STEP][PASSED] - com.updatecontact.updateForm(): com.updatecontact.updateForm is PASSED
+
+2023-06-12 10:35:49 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/updateContact/Page_Cogmento CRM/i_Calendar_users icon' is clicked on
+
+2023-06-12 10:35:50 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/i_Free account_settings icon' is hovered
+
+2023-06-12 10:35:50 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/i_Free account_settings icon' is hovered
+
+2023-06-12 10:35:51 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/updateContact/Page_Cogmento CRM/a_Kunj Prafulkumar Kaneria' is clicked on
+
+2023-06-12 10:35:52 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/updateContact/Page_Cogmento CRM/i_Kunj Kaneria_edit icon' is clicked on
+
+2023-06-12 10:35:53 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/updateContact/Page_Cogmento CRM/button_Public' is clicked on
+
+2023-06-12 10:35:54 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/updateContact/Page_Cogmento CRM/button_Save' is clicked on
+
+2023-06-12 10:35:55 - [MESSAGE][PASSED] - Text 'Only you can see this record.' is present on page 
+
+2023-06-12 10:35:55 - [MESSAGE][PASSED] - com.updatecontact.updateForm is PASSED
+
+2023-06-12 10:35:55 - [TEST_STEP][PASSED] - Start tear down : logout: Error occurred when try to run method 'logout' (Root cause: com.kms.katalon.core.exception.StepFailedException - com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cogmento/createContact/i_Free account_settings icon')
+
+2023-06-12 10:35:55 - [TEST_STEP][FAILED] - com.cogmento.logout(): Unable to click on object 'Object Repository/cogmento/createContact/i_Free account_settings icon'
+
+2023-06-12 10:35:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-06-12 10:35:56 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/i_Free account_settings icon' is clicked on
+
+2023-06-12 10:35:56 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/span_Log Out' is clicked on
+
+2023-06-12 10:35:58 - [MESSAGE][FAILED] - Text 'Forgot your password?' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Forgot your password?' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at com.cogmento.logout(cogmento.groovy:36)
+	at com.cogmento.invokeMethod(cogmento.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at updateContact.logout(updateContact:36)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:458)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:580)
+	at com.kms.katalon.core.main.TestCaseExecutor.internallyRunMethods(TestCaseExecutor.java:565)
+	at com.kms.katalon.core.main.TestCaseExecutor.onExecutionComplete(TestCaseExecutor.java:137)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686545736478.run(TempTestSuite1686545736478.groovy:36)
+)
+
+2023-06-12 10:35:58 - [MESSAGE][FAILED] - Unable to verify text 'Forgot your password?' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Forgot your password?' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at com.cogmento.logout(cogmento.groovy:36)
+	at com.cogmento.invokeMethod(cogmento.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at updateContact.logout(updateContact:36)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:458)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:580)
+	at com.kms.katalon.core.main.TestCaseExecutor.internallyRunMethods(TestCaseExecutor.java:565)
+	at com.kms.katalon.core.main.TestCaseExecutor.onExecutionComplete(TestCaseExecutor.java:137)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686545736478.run(TempTestSuite1686545736478.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Forgot your password?' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 25 more
+)
+[[ATTACHMENT|/home/deep/git/FinalAssignmentKatalon/Reports/20230612_102529/Create And Update Contact/20230612_102536/1686546358141.png]]
+
+2023-06-12 10:35:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='top-header-menu']/div[2]/div[2]/div/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 10:35:59 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/cogmento/createContact/i_Free account_settings icon'. Try using Self-healing.
+
+2023-06-12 10:36:00 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='top-header-menu']/div[2]/div[2]/div/i'.
+
+2023-06-12 10:36:00 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div/i'.
+
+2023-06-12 10:36:00 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='top-header-menu']/div[2]/div[2]/div/i'.
+
+2023-06-12 10:36:00 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div/i'.
+
+2023-06-12 10:36:01 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='top-header-menu']/div[2]/div[2]/div/i'.
+
+2023-06-12 10:36:01 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div/i'.
+
+2023-06-12 10:36:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("top-header-menu")/div[@class="right menu"]/div[@class="ui buttons"]/div[@class="ui basic button floating item dropdown"]/i[@class="settings icon"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 10:36:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: i.settings.icon'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 10:36:03 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/cogmento/createContact/i_Free account_settings icon' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cogmento/createContact/i_Free account_settings icon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at com.cogmento.logout(cogmento.groovy:39)
+	at com.cogmento.invokeMethod(cogmento.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at updateContact.logout(updateContact:36)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:458)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:580)
+	at com.kms.katalon.core.main.TestCaseExecutor.internallyRunMethods(TestCaseExecutor.java:565)
+	at com.kms.katalon.core.main.TestCaseExecutor.onExecutionComplete(TestCaseExecutor.java:137)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686545736478.run(TempTestSuite1686545736478.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/cogmento/createContact/i_Free account_settings icon' located by '//div[@id='top-header-menu']/div[2]/div[2]/div/i' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at com.cogmento.logout(cogmento.groovy:39)
+	at com.cogmento.invokeMethod(cogmento.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1686300610294.logout(Script1686300610294.groovy:36)
+	... 16 more
+)
+[[ATTACHMENT|/home/deep/git/FinalAssignmentKatalon/Reports/20230612_102529/Create And Update Contact/20230612_102536/1686546363396.png]]
+
+2023-06-12 10:36:03 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/cogmento/createContact/i_Free account_settings icon'
+
+2023-06-12 10:36:03 - [MESSAGE][WARNING] - Error occurred when try to run method 'logout' (Root cause: com.kms.katalon.core.exception.StepFailedException - com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cogmento/createContact/i_Free account_settings icon')
+
+2023-06-12 10:36:03 - [TEST_STEP][PASSED] - Start listener action : assertmessage: null
+
+2023-06-12 10:36:03 - [TEST_STEP][PASSED] - println("Testcase Run successfully."): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/updateContact" time="20.348" classname="Test Cases/updateContact" status="PASSED">
+         <system-out><![CDATA[2023-06-12 10:36:03 - [TEST_CASE][PASSED] - Test Cases/updateContact: Test Cases/updateContact
+
+2023-06-12 10:36:03 - [TEST_STEP][PASSED] - Start listener action : maximize: Current window maximized
+
+2023-06-12 10:36:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-12 10:36:03 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-12 10:36:03 - [TEST_STEP][PASSED] - Start setup action : login: Method 'login' complete successfully
+
+2023-06-12 10:36:03 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://ui.cogmento.com/' successfully
+
+2023-06-12 10:36:05 - [MESSAGE][PASSED] - Navigate to 'https://ui.cogmento.com/' successfully
+
+2023-06-12 10:36:05 - [TEST_STEP][PASSED] - com.cogmento.Login(username, password): com.cogmento.Login is PASSED
+
+2023-06-12 10:36:06 - [MESSAGE][PASSED] - Text 'deep.p@simformsolutions.com' is set on object 'Object Repository/cogmento/createContact/input_Login_email'
+
+2023-06-12 10:36:07 - [MESSAGE][PASSED] - Text 'Deep@123' is set on object 'Object Repository/cogmento/createContact/input_Login_password'
+
+2023-06-12 10:36:07 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/div_Login' is clicked on
+
+2023-06-12 10:36:07 - [MESSAGE][PASSED] - com.cogmento.Login is PASSED
+
+2023-06-12 10:36:07 - [MESSAGE][PASSED] - Method 'login' complete successfully
+
+2023-06-12 10:36:07 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), URL, false): Actual text 'https://ui.cogmento.com/' and expected text 'https://ui.cogmento.com/' are matched 
+
+2023-06-12 10:36:07 - [MESSAGE][PASSED] - Current window's url is: 'https://ui.cogmento.com/'
+
+2023-06-12 10:36:07 - [MESSAGE][PASSED] - Actual text 'https://ui.cogmento.com/' and expected text 'https://ui.cogmento.com/' are matched 
+
+2023-06-12 10:36:07 - [TEST_STEP][PASSED] - assert getWindowTitle() == "Cogmento CRM": Current window's title is: 'Cogmento CRM'
+
+2023-06-12 10:36:07 - [MESSAGE][PASSED] - Current window's title is: 'Cogmento CRM'
+
+2023-06-12 10:36:07 - [TEST_STEP][PASSED] - com.updatecontact.updateForm(): com.updatecontact.updateForm is PASSED
+
+2023-06-12 10:36:10 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/updateContact/Page_Cogmento CRM/i_Calendar_users icon' is clicked on
+
+2023-06-12 10:36:11 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/i_Free account_settings icon' is hovered
+
+2023-06-12 10:36:11 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/i_Free account_settings icon' is hovered
+
+2023-06-12 10:36:11 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/updateContact/Page_Cogmento CRM/a_Kunj Prafulkumar Kaneria' is clicked on
+
+2023-06-12 10:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/updateContact/Page_Cogmento CRM/i_Kunj Kaneria_edit icon' is clicked on
+
+2023-06-12 10:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/updateContact/Page_Cogmento CRM/button_Public' is clicked on
+
+2023-06-12 10:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/updateContact/Page_Cogmento CRM/button_Save' is clicked on
+
+2023-06-12 10:36:16 - [MESSAGE][PASSED] - Text 'Only you can see this record.' is present on page 
+
+2023-06-12 10:36:16 - [MESSAGE][PASSED] - com.updatecontact.updateForm is PASSED
+
+2023-06-12 10:36:16 - [TEST_STEP][PASSED] - Start tear down : logout: Error occurred when try to run method 'logout' (Root cause: com.kms.katalon.core.exception.StepFailedException - com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cogmento/createContact/i_Free account_settings icon')
+
+2023-06-12 10:36:16 - [TEST_STEP][FAILED] - com.cogmento.logout(): Unable to click on object 'Object Repository/cogmento/createContact/i_Free account_settings icon'
+
+2023-06-12 10:36:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-06-12 10:36:16 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/i_Free account_settings icon' is clicked on
+
+2023-06-12 10:36:17 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/span_Log Out' is clicked on
+
+2023-06-12 10:36:18 - [MESSAGE][FAILED] - Text 'Forgot your password?' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Forgot your password?' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at com.cogmento.logout(cogmento.groovy:36)
+	at com.cogmento.invokeMethod(cogmento.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at updateContact.logout(updateContact:36)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:458)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:580)
+	at com.kms.katalon.core.main.TestCaseExecutor.internallyRunMethods(TestCaseExecutor.java:565)
+	at com.kms.katalon.core.main.TestCaseExecutor.onExecutionComplete(TestCaseExecutor.java:137)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686545736478.run(TempTestSuite1686545736478.groovy:36)
+)
+
+2023-06-12 10:36:18 - [MESSAGE][FAILED] - Unable to verify text 'Forgot your password?' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Forgot your password?' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at com.cogmento.logout(cogmento.groovy:36)
+	at com.cogmento.invokeMethod(cogmento.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at updateContact.logout(updateContact:36)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:458)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:580)
+	at com.kms.katalon.core.main.TestCaseExecutor.internallyRunMethods(TestCaseExecutor.java:565)
+	at com.kms.katalon.core.main.TestCaseExecutor.onExecutionComplete(TestCaseExecutor.java:137)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686545736478.run(TempTestSuite1686545736478.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Forgot your password?' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 26 more
+)
+[[ATTACHMENT|/home/deep/git/FinalAssignmentKatalon/Reports/20230612_102529/Create And Update Contact/20230612_102536/1686546378547.png]]
+
+2023-06-12 10:36:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='top-header-menu']/div[2]/div[2]/div/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 10:36:20 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/cogmento/createContact/i_Free account_settings icon'. Try using Self-healing.
+
+2023-06-12 10:36:20 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='top-header-menu']/div[2]/div[2]/div/i'.
+
+2023-06-12 10:36:20 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div/i'.
+
+2023-06-12 10:36:20 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='top-header-menu']/div[2]/div[2]/div/i'.
+
+2023-06-12 10:36:21 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div/i'.
+
+2023-06-12 10:36:21 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='top-header-menu']/div[2]/div[2]/div/i'.
+
+2023-06-12 10:36:21 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div[2]/div/i'.
+
+2023-06-12 10:36:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("top-header-menu")/div[@class="right menu"]/div[@class="ui buttons"]/div[@class="ui basic button floating item dropdown"]/i[@class="settings icon"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 10:36:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: i.settings.icon'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-12 10:36:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/cogmento/createContact/i_Free account_settings icon' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cogmento/createContact/i_Free account_settings icon'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at com.cogmento.logout(cogmento.groovy:39)
+	at com.cogmento.invokeMethod(cogmento.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at updateContact.logout(updateContact:36)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:458)
+	at com.kms.katalon.core.main.TestCaseExecutor.runMethod(TestCaseExecutor.java:580)
+	at com.kms.katalon.core.main.TestCaseExecutor.internallyRunMethods(TestCaseExecutor.java:565)
+	at com.kms.katalon.core.main.TestCaseExecutor.onExecutionComplete(TestCaseExecutor.java:137)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686545736478.run(TempTestSuite1686545736478.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/cogmento/createContact/i_Free account_settings icon' located by '//div[@id='top-header-menu']/div[2]/div[2]/div/i' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at com.cogmento.logout(cogmento.groovy:39)
+	at com.cogmento.invokeMethod(cogmento.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Script1686300610294.logout(Script1686300610294.groovy:36)
+	... 17 more
+)
+[[ATTACHMENT|/home/deep/git/FinalAssignmentKatalon/Reports/20230612_102529/Create And Update Contact/20230612_102536/1686546383753.png]]
+
+2023-06-12 10:36:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/cogmento/createContact/i_Free account_settings icon'
+
+2023-06-12 10:36:23 - [MESSAGE][WARNING] - Error occurred when try to run method 'logout' (Root cause: com.kms.katalon.core.exception.StepFailedException - com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/cogmento/createContact/i_Free account_settings icon')
+
+2023-06-12 10:36:23 - [TEST_STEP][PASSED] - Start listener action : assertmessage: null
+
+2023-06-12 10:36:23 - [TEST_STEP][PASSED] - println("Testcase Run successfully."): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-12 10:34:53 - [TEST_SUITE][FAILED] - Create And Update Contact: Test Cases/updateContact FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Only you can see this record.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at com.updatecontact.updateForm(updatecontact.groovy:41)
+	at com.updatecontact.invokeMethod(updatecontact.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at updateContact.run(updateContact:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686545736478.run(TempTestSuite1686545736478.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Only you can see this record.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-out>
+      <system-err><![CDATA[2023-06-12 10:34:53 - [TEST_SUITE][FAILED] - Create And Update Contact: Test Cases/updateContact FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Only you can see this record.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at com.updatecontact.updateForm(updatecontact.groovy:41)
+	at com.updatecontact.invokeMethod(updatecontact.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at updateContact.run(updateContact:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686545736478.run(TempTestSuite1686545736478.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Only you can see this record.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -14,74 +14,74 @@
    <testCaseLink>
       <guid>6e6b605a-84c8-4f81-9438-66fde73626cc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/createContact</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>a41b337b-0b96-4352-9916-69aac72fdeb3</id>
+         <id>a9048bd0-1640-4fb3-a44b-7ae9705ea3fc</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/testdata</testDataId>
+         <testDataId>Data Files/New Test Data</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>a41b337b-0b96-4352-9916-69aac72fdeb3</testDataLinkId>
+         <testDataLinkId>a9048bd0-1640-4fb3-a44b-7ae9705ea3fc</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>FirstName</value>
          <variableId>a4c24ff3-47f1-4ba4-aba8-4c5b0f9c6419</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a41b337b-0b96-4352-9916-69aac72fdeb3</testDataLinkId>
+         <testDataLinkId>a9048bd0-1640-4fb3-a44b-7ae9705ea3fc</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>LastName</value>
          <variableId>5d5b040a-fd1a-4231-ad17-0f48fe5d9d00</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a41b337b-0b96-4352-9916-69aac72fdeb3</testDataLinkId>
+         <testDataLinkId>a9048bd0-1640-4fb3-a44b-7ae9705ea3fc</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>MiddleName</value>
          <variableId>0cb4ca46-9608-491a-a897-f02509657540</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a41b337b-0b96-4352-9916-69aac72fdeb3</testDataLinkId>
+         <testDataLinkId>a9048bd0-1640-4fb3-a44b-7ae9705ea3fc</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Email</value>
          <variableId>2ba5e978-4d44-4faf-bbe0-35b3e22a34de</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a41b337b-0b96-4352-9916-69aac72fdeb3</testDataLinkId>
+         <testDataLinkId>a9048bd0-1640-4fb3-a44b-7ae9705ea3fc</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Call</value>
          <variableId>bf589abf-8ae8-4b2f-bd00-6218e7df7ecf</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a41b337b-0b96-4352-9916-69aac72fdeb3</testDataLinkId>
+         <testDataLinkId>a9048bd0-1640-4fb3-a44b-7ae9705ea3fc</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Text</value>
          <variableId>9bc6eb09-3800-4936-adbc-95ee7efe818f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a41b337b-0b96-4352-9916-69aac72fdeb3</testDataLinkId>
+         <testDataLinkId>a9048bd0-1640-4fb3-a44b-7ae9705ea3fc</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>DoEmail</value>
          <variableId>c96a8925-91c0-4b2f-b0ed-f0f5539a43c5</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a41b337b-0b96-4352-9916-69aac72fdeb3</testDataLinkId>
+         <testDataLinkId>a9048bd0-1640-4fb3-a44b-7ae9705ea3fc</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>BirthDay</value>
          <variableId>e443d642-5106-4bd0-ad89-e29a79c962a8</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a41b337b-0b96-4352-9916-69aac72fdeb3</testDataLinkId>
+         <testDataLinkId>a9048bd0-1640-4fb3-a44b-7ae9705ea3fc</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>BirthMonth</value>
          <variableId>6b50f7f7-4922-4cc1-90df-51ead0a0ddb1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a41b337b-0b96-4352-9916-69aac72fdeb3</testDataLinkId>
+         <testDataLinkId>a9048bd0-1640-4fb3-a44b-7ae9705ea3fc</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>BirthYear</value>
          <variableId>174f37b1-8fb3-4c04-9e44-a78e073d76db</variableId>
@@ -92,15 +92,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/updateContact</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>1f00d5f6-6917-45d4-bb96-35b0d62a4d64</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/testdata</testDataId>
-      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

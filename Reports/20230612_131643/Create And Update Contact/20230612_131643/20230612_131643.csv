@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create And Update Contact,Chrome 109.0.0.0,,,2023-06-12 13:16:49,2023-06-12 13:17:16,26.925s,ERROR
+,,,,,,,
+Test Cases/createContact,Chrome 109.0.0.0,,,2023-06-12 13:16:57,2023-06-12 13:16:57,0.112s,ERROR
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-12 13:16:57,2023-06-12 13:16:57,0.016s,ERROR
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-12 13:16:57,2023-06-12 13:16:57,0.008s,ERROR
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-12 13:16:57,2023-06-12 13:16:57,0.079s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-12 13:16:57,2023-06-12 13:16:57,0.000s,PASSED
+,,,,,,,
+Test Cases/createContact,Chrome 109.0.0.0,,,2023-06-12 13:16:57,2023-06-12 13:16:57,0.106s,ERROR
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-12 13:16:57,2023-06-12 13:16:57,0.013s,ERROR
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-12 13:16:57,2023-06-12 13:16:57,0.009s,ERROR
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-12 13:16:57,2023-06-12 13:16:57,0.075s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-12 13:16:57,2023-06-12 13:16:57,0.001s,PASSED
+,,,,,,,
+Test Cases/createContact,Chrome 109.0.0.0,,,2023-06-12 13:16:58,2023-06-12 13:16:58,0.105s,ERROR
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-12 13:16:58,2023-06-12 13:16:58,0.015s,ERROR
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-12 13:16:58,2023-06-12 13:16:58,0.008s,ERROR
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-12 13:16:58,2023-06-12 13:16:58,0.076s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-12 13:16:58,2023-06-12 13:16:58,0.000s,PASSED
+,,,,,,,
+Test Cases/createContact,Chrome 109.0.0.0,,,2023-06-12 13:16:58,2023-06-12 13:16:58,0.152s,ERROR
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-12 13:16:58,2023-06-12 13:16:58,0.072s,ERROR
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-12 13:16:58,2023-06-12 13:16:58,0.008s,ERROR
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-12 13:16:58,2023-06-12 13:16:58,0.066s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-12 13:16:58,2023-06-12 13:16:58,0.000s,PASSED
+,,,,,,,
+Test Cases/updateContact,Chrome 109.0.0.0,,,2023-06-12 13:17:15,2023-06-12 13:17:16,0.168s,ERROR
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-12 13:17:15,2023-06-12 13:17:15,0.020s,ERROR
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-12 13:17:15,2023-06-12 13:17:15,0.011s,ERROR
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-12 13:17:15,2023-06-12 13:17:16,0.130s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-12 13:17:16,2023-06-12 13:17:16,0.000s,PASSED
