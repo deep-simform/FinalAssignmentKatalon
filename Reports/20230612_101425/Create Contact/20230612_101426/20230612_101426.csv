@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create Contact,Chrome 109.0.0.0,,,2023-06-12 10:14:32,2023-06-12 10:15:56,1m - 23.578s,PASSED
+,,,,,,,
+Test Cases/createContact,Chrome 109.0.0.0,,,2023-06-12 10:14:34,2023-06-12 10:15:04,30.201s,PASSED
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-12 10:14:34,2023-06-12 10:14:34,0.126s,PASSED
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-12 10:14:34,2023-06-12 10:14:40,6.216s,PASSED
+"verifyMatch(getUrl(), URL, false)",Chrome 109.0.0.0,,,2023-06-12 10:14:40,2023-06-12 10:14:40,0.037s,PASSED
+"assert getWindowTitle() == ""Cogmento CRM""",Chrome 109.0.0.0,,,2023-06-12 10:14:40,2023-06-12 10:14:40,0.021s,PASSED
+"com.CreateContact.enterbasicdetails(FirstName, LastName, MiddleName, Email)",Chrome 109.0.0.0,,,2023-06-12 10:14:40,2023-06-12 10:14:50,10.454s,PASSED
+"com.CreateContact.setDND(Call, Text, DoEmail)",Chrome 109.0.0.0,,,2023-06-12 10:14:50,2023-06-12 10:14:51,0.997s,PASSED
+"com.CreateContact.setBirthDate(BirthDay, BirthMonth, BirthYear)",Chrome 109.0.0.0,,,2023-06-12 10:14:51,2023-06-12 10:14:54,3.003s,PASSED
+com.CreateContact.submitForm(),Chrome 109.0.0.0,,,2023-06-12 10:14:54,2023-06-12 10:14:55,0.439s,PASSED
+try,Chrome 109.0.0.0,,,2023-06-12 10:14:55,2023-06-12 10:14:59,4.035s,PASSED
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-12 10:14:59,2023-06-12 10:15:04,4.846s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-12 10:15:04,2023-06-12 10:15:04,0.002s,PASSED
+,,,,,,,
+Test Cases/createContact,Chrome 109.0.0.0,,,2023-06-12 10:15:04,2023-06-12 10:15:31,26.792s,PASSED
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-12 10:15:04,2023-06-12 10:15:04,0.011s,PASSED
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-12 10:15:04,2023-06-12 10:15:08,4.381s,PASSED
+"verifyMatch(getUrl(), URL, false)",Chrome 109.0.0.0,,,2023-06-12 10:15:08,2023-06-12 10:15:08,0.014s,PASSED
+"assert getWindowTitle() == ""Cogmento CRM""",Chrome 109.0.0.0,,,2023-06-12 10:15:08,2023-06-12 10:15:08,0.006s,PASSED
+"com.CreateContact.enterbasicdetails(FirstName, LastName, MiddleName, Email)",Chrome 109.0.0.0,,,2023-06-12 10:15:08,2023-06-12 10:15:16,8.238s,PASSED
+"com.CreateContact.setDND(Call, Text, DoEmail)",Chrome 109.0.0.0,,,2023-06-12 10:15:16,2023-06-12 10:15:19,2.270s,PASSED
+"com.CreateContact.setBirthDate(BirthDay, BirthMonth, BirthYear)",Chrome 109.0.0.0,,,2023-06-12 10:15:19,2023-06-12 10:15:22,2.983s,PASSED
+com.CreateContact.submitForm(),Chrome 109.0.0.0,,,2023-06-12 10:15:22,2023-06-12 10:15:22,0.429s,PASSED
+try,Chrome 109.0.0.0,,,2023-06-12 10:15:22,2023-06-12 10:15:26,4.089s,PASSED
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-12 10:15:26,2023-06-12 10:15:31,4.361s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-12 10:15:31,2023-06-12 10:15:31,0.000s,PASSED
+,,,,,,,
+Test Cases/createContact,Chrome 109.0.0.0,,,2023-06-12 10:15:31,2023-06-12 10:15:56,25.232s,PASSED
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-12 10:15:31,2023-06-12 10:15:31,0.008s,PASSED
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-12 10:15:31,2023-06-12 10:15:34,3.628s,PASSED
+"verifyMatch(getUrl(), URL, false)",Chrome 109.0.0.0,,,2023-06-12 10:15:34,2023-06-12 10:15:34,0.011s,PASSED
+"assert getWindowTitle() == ""Cogmento CRM""",Chrome 109.0.0.0,,,2023-06-12 10:15:34,2023-06-12 10:15:34,0.010s,PASSED
+"com.CreateContact.enterbasicdetails(FirstName, LastName, MiddleName, Email)",Chrome 109.0.0.0,,,2023-06-12 10:15:34,2023-06-12 10:15:42,7.932s,PASSED
+"com.CreateContact.setDND(Call, Text, DoEmail)",Chrome 109.0.0.0,,,2023-06-12 10:15:42,2023-06-12 10:15:44,1.599s,PASSED
+"com.CreateContact.setBirthDate(BirthDay, BirthMonth, BirthYear)",Chrome 109.0.0.0,,,2023-06-12 10:15:44,2023-06-12 10:15:47,3.080s,PASSED
+com.CreateContact.submitForm(),Chrome 109.0.0.0,,,2023-06-12 10:15:47,2023-06-12 10:15:48,0.532s,PASSED
+try,Chrome 109.0.0.0,,,2023-06-12 10:15:48,2023-06-12 10:15:51,3.764s,PASSED
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-12 10:15:51,2023-06-12 10:15:56,4.594s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-12 10:15:56,2023-06-12 10:15:56,0.000s,PASSED

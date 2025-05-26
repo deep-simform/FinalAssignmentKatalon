@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create Contact,Firefox 113.0,,,2023-06-09 15:38:34,2023-06-09 15:40:35,2m - 1.538s,ERROR
+,,,,,,,
+Test Cases/createContact,Firefox 113.0,,,2023-06-09 15:39:07,2023-06-09 15:39:17,9.911s,ERROR
+Start listener action : maximize,Firefox 113.0,,,2023-06-09 15:39:07,2023-06-09 15:39:07,0.007s,PASSED
+Start setup action : login,Firefox 113.0,,,2023-06-09 15:39:07,2023-06-09 15:39:07,0.080s,ERROR
+Start tear down : logout,Firefox 113.0,,,2023-06-09 15:39:07,2023-06-09 15:39:17,9.812s,PASSED
+Start listener action : assertmessage,Firefox 113.0,,,2023-06-09 15:39:17,2023-06-09 15:39:17,0.000s,PASSED
+,,,,,,,
+Test Cases/createContact,Firefox 113.0,,,2023-06-09 15:39:46,2023-06-09 15:39:56,9.749s,ERROR
+Start listener action : maximize,Firefox 113.0,,,2023-06-09 15:39:46,2023-06-09 15:39:46,0.005s,PASSED
+Start setup action : login,Firefox 113.0,,,2023-06-09 15:39:46,2023-06-09 15:39:47,0.069s,ERROR
+Start tear down : logout,Firefox 113.0,,,2023-06-09 15:39:47,2023-06-09 15:39:56,9.667s,PASSED
+Start listener action : assertmessage,Firefox 113.0,,,2023-06-09 15:39:56,2023-06-09 15:39:56,0.000s,PASSED
+,,,,,,,
+Test Cases/createContact,Firefox 113.0,,,2023-06-09 15:40:26,2023-06-09 15:40:35,9.727s,ERROR
+Start listener action : maximize,Firefox 113.0,,,2023-06-09 15:40:26,2023-06-09 15:40:26,0.005s,PASSED
+Start setup action : login,Firefox 113.0,,,2023-06-09 15:40:26,2023-06-09 15:40:26,0.073s,ERROR
+Start tear down : logout,Firefox 113.0,,,2023-06-09 15:40:26,2023-06-09 15:40:35,9.641s,PASSED
+Start listener action : assertmessage,Firefox 113.0,,,2023-06-09 15:40:35,2023-06-09 15:40:35,0.001s,PASSED

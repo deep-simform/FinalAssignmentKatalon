@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+createContact,Chrome 109.0.0.0,,,2023-06-09 10:02:39,2023-06-09 10:03:06,27.031s,ERROR
+,,,,,,,
+Test Cases/createContact,Chrome 109.0.0.0,,,2023-06-09 10:03:05,2023-06-09 10:03:05,0.175s,ERROR
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-09 10:03:05,2023-06-09 10:03:05,0.023s,ERROR
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-09 10:03:05,2023-06-09 10:03:05,0.025s,ERROR
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-09 10:03:05,2023-06-09 10:03:05,0.116s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-09 10:03:05,2023-06-09 10:03:05,0.000s,PASSED
+,,,,,,,
+Test Cases/createContact,Chrome 109.0.0.0,,,2023-06-09 10:03:05,2023-06-09 10:03:05,0.158s,ERROR
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-09 10:03:05,2023-06-09 10:03:05,0.024s,ERROR
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-09 10:03:05,2023-06-09 10:03:05,0.021s,ERROR
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-09 10:03:05,2023-06-09 10:03:05,0.104s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-09 10:03:05,2023-06-09 10:03:05,0.000s,PASSED
+,,,,,,,
+Test Cases/createContact,Chrome 109.0.0.0,,,2023-06-09 10:03:06,2023-06-09 10:03:06,0.149s,ERROR
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-09 10:03:06,2023-06-09 10:03:06,0.020s,ERROR
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-09 10:03:06,2023-06-09 10:03:06,0.019s,ERROR
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-09 10:03:06,2023-06-09 10:03:06,0.103s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-09 10:03:06,2023-06-09 10:03:06,0.001s,PASSED

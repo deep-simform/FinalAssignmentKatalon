@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create And Update Contact,Firefox 114.0,,,2023-06-12 10:34:53,2023-06-12 10:36:23,1m - 30.397s,PASSED
+,,,,,,,
+Test Cases/updateContact,Firefox 114.0,,,2023-06-12 10:35:22,2023-06-12 10:35:43,20.289s,PASSED
+Start listener action : maximize,Firefox 114.0,,,2023-06-12 10:35:22,2023-06-12 10:35:22,0.012s,PASSED
+Start setup action : login,Firefox 114.0,,,2023-06-12 10:35:22,2023-06-12 10:35:27,4.235s,PASSED
+"verifyMatch(getUrl(), URL, false)",Firefox 114.0,,,2023-06-12 10:35:27,2023-06-12 10:35:27,0.014s,PASSED
+"assert getWindowTitle() == ""Cogmento CRM""",Firefox 114.0,,,2023-06-12 10:35:27,2023-06-12 10:35:27,0.004s,PASSED
+com.updatecontact.updateForm(),Firefox 114.0,,,2023-06-12 10:35:27,2023-06-12 10:35:36,8.846s,PASSED
+Start tear down : logout,Firefox 114.0,,,2023-06-12 10:35:36,2023-06-12 10:35:43,7.170s,PASSED
+Start listener action : assertmessage,Firefox 114.0,,,2023-06-12 10:35:43,2023-06-12 10:35:43,0.000s,PASSED
+,,,,,,,
+Test Cases/updateContact,Firefox 114.0,,,2023-06-12 10:35:43,2023-06-12 10:36:03,20.313s,PASSED
+Start listener action : maximize,Firefox 114.0,,,2023-06-12 10:35:43,2023-06-12 10:35:43,0.008s,PASSED
+Start setup action : login,Firefox 114.0,,,2023-06-12 10:35:43,2023-06-12 10:35:47,4.058s,PASSED
+"verifyMatch(getUrl(), URL, false)",Firefox 114.0,,,2023-06-12 10:35:47,2023-06-12 10:35:47,0.005s,PASSED
+"assert getWindowTitle() == ""Cogmento CRM""",Firefox 114.0,,,2023-06-12 10:35:47,2023-06-12 10:35:47,0.006s,PASSED
+com.updatecontact.updateForm(),Firefox 114.0,,,2023-06-12 10:35:47,2023-06-12 10:35:55,8.624s,PASSED
+Start tear down : logout,Firefox 114.0,,,2023-06-12 10:35:55,2023-06-12 10:36:03,7.603s,PASSED
+Start listener action : assertmessage,Firefox 114.0,,,2023-06-12 10:36:03,2023-06-12 10:36:03,0.000s,PASSED
+,,,,,,,
+Test Cases/updateContact,Firefox 114.0,,,2023-06-12 10:36:03,2023-06-12 10:36:23,20.348s,PASSED
+Start listener action : maximize,Firefox 114.0,,,2023-06-12 10:36:03,2023-06-12 10:36:03,0.006s,PASSED
+Start setup action : login,Firefox 114.0,,,2023-06-12 10:36:03,2023-06-12 10:36:07,4.218s,PASSED
+"verifyMatch(getUrl(), URL, false)",Firefox 114.0,,,2023-06-12 10:36:07,2023-06-12 10:36:07,0.008s,PASSED
+"assert getWindowTitle() == ""Cogmento CRM""",Firefox 114.0,,,2023-06-12 10:36:07,2023-06-12 10:36:07,0.005s,PASSED
+com.updatecontact.updateForm(),Firefox 114.0,,,2023-06-12 10:36:07,2023-06-12 10:36:16,8.516s,PASSED
+Start tear down : logout,Firefox 114.0,,,2023-06-12 10:36:16,2023-06-12 10:36:23,7.588s,PASSED
+Start listener action : assertmessage,Firefox 114.0,,,2023-06-12 10:36:23,2023-06-12 10:36:23,0.001s,PASSED

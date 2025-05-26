@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create Contact,Firefox 113.0,,,2023-06-09 19:31:58,2023-06-09 19:33:38,1m - 39.249s,ERROR
+,,,,,,,
+Test Cases/createContact,Firefox 113.0,,,2023-06-09 19:32:01,2023-06-09 19:32:32,30.728s,PASSED
+Start listener action : maximize,Firefox 113.0,,,2023-06-09 19:32:01,2023-06-09 19:32:01,0.289s,PASSED
+Start setup action : login,Firefox 113.0,,,2023-06-09 19:32:01,2023-06-09 19:32:08,6.802s,PASSED
+"verifyMatch(getUrl(), URL, false)",Firefox 113.0,,,2023-06-09 19:32:08,2023-06-09 19:32:08,0.019s,PASSED
+"assert getWindowTitle() == ""Cogmento CRM""",Firefox 113.0,,,2023-06-09 19:32:08,2023-06-09 19:32:08,0.011s,PASSED
+"com.CreateContact.enterbasicdetails(FirstName, LastName, MiddleName, Email)",Firefox 113.0,,,2023-06-09 19:32:08,2023-06-09 19:32:18,9.973s,PASSED
+"com.CreateContact.setDND(Call, Text, DoEmail)",Firefox 113.0,,,2023-06-09 19:32:18,2023-06-09 19:32:20,1.266s,PASSED
+"com.CreateContact.setBirthDate(BirthDay, BirthMonth, BirthYear)",Firefox 113.0,,,2023-06-09 19:32:20,2023-06-09 19:32:22,2.079s,PASSED
+com.CreateContact.submitForm(),Firefox 113.0,,,2023-06-09 19:32:22,2023-06-09 19:32:22,0.516s,PASSED
+try,Firefox 113.0,,,2023-06-09 19:32:22,2023-06-09 19:32:26,3.402s,PASSED
+Start tear down : logout,Firefox 113.0,,,2023-06-09 19:32:26,2023-06-09 19:32:32,6.346s,PASSED
+Start listener action : assertmessage,Firefox 113.0,,,2023-06-09 19:32:32,2023-06-09 19:32:32,0.002s,PASSED
+,,,,,,,
+Test Cases/createContact,Firefox 113.0,,,2023-06-09 19:32:32,2023-06-09 19:32:56,24.313s,PASSED
+Start listener action : maximize,Firefox 113.0,,,2023-06-09 19:32:32,2023-06-09 19:32:32,0.017s,PASSED
+Start setup action : login,Firefox 113.0,,,2023-06-09 19:32:32,2023-06-09 19:32:36,3.561s,PASSED
+"verifyMatch(getUrl(), URL, false)",Firefox 113.0,,,2023-06-09 19:32:36,2023-06-09 19:32:36,0.005s,PASSED
+"assert getWindowTitle() == ""Cogmento CRM""",Firefox 113.0,,,2023-06-09 19:32:36,2023-06-09 19:32:36,0.007s,PASSED
+"com.CreateContact.enterbasicdetails(FirstName, LastName, MiddleName, Email)",Firefox 113.0,,,2023-06-09 19:32:36,2023-06-09 19:32:42,6.960s,PASSED
+"com.CreateContact.setDND(Call, Text, DoEmail)",Firefox 113.0,,,2023-06-09 19:32:42,2023-06-09 19:32:44,1.228s,PASSED
+"com.CreateContact.setBirthDate(BirthDay, BirthMonth, BirthYear)",Firefox 113.0,,,2023-06-09 19:32:44,2023-06-09 19:32:46,2.123s,PASSED
+com.CreateContact.submitForm(),Firefox 113.0,,,2023-06-09 19:32:46,2023-06-09 19:32:46,0.524s,PASSED
+try,Firefox 113.0,,,2023-06-09 19:32:46,2023-06-09 19:32:49,3.117s,PASSED
+Start tear down : logout,Firefox 113.0,,,2023-06-09 19:32:49,2023-06-09 19:32:56,6.756s,PASSED
+Start listener action : assertmessage,Firefox 113.0,,,2023-06-09 19:32:56,2023-06-09 19:32:56,0.000s,PASSED
+,,,,,,,
+Test Cases/createContact,Firefox 113.0,,,2023-06-09 19:32:56,2023-06-09 19:33:20,24.212s,PASSED
+Start listener action : maximize,Firefox 113.0,,,2023-06-09 19:32:56,2023-06-09 19:32:56,0.008s,PASSED
+Start setup action : login,Firefox 113.0,,,2023-06-09 19:32:56,2023-06-09 19:33:00,3.467s,PASSED
+"verifyMatch(getUrl(), URL, false)",Firefox 113.0,,,2023-06-09 19:33:00,2023-06-09 19:33:00,0.005s,PASSED
+"assert getWindowTitle() == ""Cogmento CRM""",Firefox 113.0,,,2023-06-09 19:33:00,2023-06-09 19:33:00,0.004s,PASSED
+"com.CreateContact.enterbasicdetails(FirstName, LastName, MiddleName, Email)",Firefox 113.0,,,2023-06-09 19:33:00,2023-06-09 19:33:07,6.997s,PASSED
+"com.CreateContact.setDND(Call, Text, DoEmail)",Firefox 113.0,,,2023-06-09 19:33:07,2023-06-09 19:33:08,1.198s,PASSED
+"com.CreateContact.setBirthDate(BirthDay, BirthMonth, BirthYear)",Firefox 113.0,,,2023-06-09 19:33:08,2023-06-09 19:33:10,2.004s,PASSED
+com.CreateContact.submitForm(),Firefox 113.0,,,2023-06-09 19:33:10,2023-06-09 19:33:10,0.505s,PASSED
+try,Firefox 113.0,,,2023-06-09 19:33:10,2023-06-09 19:33:14,3.347s,PASSED
+Start tear down : logout,Firefox 113.0,,,2023-06-09 19:33:14,2023-06-09 19:33:20,6.668s,PASSED
+Start listener action : assertmessage,Firefox 113.0,,,2023-06-09 19:33:20,2023-06-09 19:33:20,0.000s,PASSED
+,,,,,,,
+Test Cases/createContact,Firefox 113.0,,,2023-06-09 19:33:20,2023-06-09 19:33:36,15.839s,FAILED
+Start listener action : maximize,Firefox 113.0,,,2023-06-09 19:33:20,2023-06-09 19:33:20,0.008s,PASSED
+Start setup action : login,Firefox 113.0,,,2023-06-09 19:33:20,2023-06-09 19:33:24,3.442s,PASSED
+"verifyMatch(getUrl(), URL, false)",Firefox 113.0,,,2023-06-09 19:33:24,2023-06-09 19:33:24,0.005s,PASSED
+"assert getWindowTitle() == ""Cogmento CRM""",Firefox 113.0,,,2023-06-09 19:33:24,2023-06-09 19:33:24,0.004s,PASSED
+"com.CreateContact.enterbasicdetails(FirstName, LastName, MiddleName, Email)",Firefox 113.0,,,2023-06-09 19:33:24,2023-06-09 19:33:31,7.253s,PASSED
+"com.CreateContact.setDND(Call, Text, DoEmail)",Firefox 113.0,,,2023-06-09 19:33:31,2023-06-09 19:33:32,1.205s,PASSED
+"com.CreateContact.setBirthDate(BirthDay, BirthMonth, BirthYear)",Firefox 113.0,,,2023-06-09 19:33:32,2023-06-09 19:33:34,2.060s,PASSED
+com.CreateContact.submitForm(),Firefox 113.0,,,2023-06-09 19:33:34,2023-06-09 19:33:35,0.566s,PASSED
+try,Firefox 113.0,,,2023-06-09 19:33:35,2023-06-09 19:33:36,1.153s,FAILED
+catch (Exception e),Firefox 113.0,,,2023-06-09 19:33:36,2023-06-09 19:33:36,0.019s,FAILED
+Start tear down : logout,Firefox 113.0,,,2023-06-09 19:33:36,2023-06-09 19:33:36,0.110s,PASSED
+Start listener action : assertmessage,Firefox 113.0,,,2023-06-09 19:33:36,2023-06-09 19:33:36,0.000s,PASSED
+,,,,,,,
+Test Cases/createContact,Firefox 113.0,,,2023-06-09 19:33:37,2023-06-09 19:33:37,0.160s,ERROR
+Start listener action : maximize,Firefox 113.0,,,2023-06-09 19:33:37,2023-06-09 19:33:37,0.022s,ERROR
+Start setup action : login,Firefox 113.0,,,2023-06-09 19:33:37,2023-06-09 19:33:37,0.019s,ERROR
+Start tear down : logout,Firefox 113.0,,,2023-06-09 19:33:37,2023-06-09 19:33:37,0.102s,PASSED
+Start listener action : assertmessage,Firefox 113.0,,,2023-06-09 19:33:37,2023-06-09 19:33:37,0.000s,PASSED
+,,,,,,,
+Test Cases/createContact,Firefox 113.0,,,2023-06-09 19:33:37,2023-06-09 19:33:38,0.093s,ERROR
+Start listener action : maximize,Firefox 113.0,,,2023-06-09 19:33:37,2023-06-09 19:33:37,0.009s,ERROR
+Start setup action : login,Firefox 113.0,,,2023-06-09 19:33:37,2023-06-09 19:33:37,0.009s,ERROR
+Start tear down : logout,Firefox 113.0,,,2023-06-09 19:33:37,2023-06-09 19:33:38,0.067s,PASSED
+Start listener action : assertmessage,Firefox 113.0,,,2023-06-09 19:33:38,2023-06-09 19:33:38,0.000s,PASSED

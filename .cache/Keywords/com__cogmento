@@ -1,0 +1,48 @@
+{
+  "keywordFileContentHash": "D66CA74AC3CE8CA6520206DD5C4B43C5",
+  "keywordClasses": [
+    {
+      "name": "com.cogmento",
+      "keywordMethods": [
+        {
+          "name": "logout",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "Login",
+          "parameters": [
+            {
+              "name": "username",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "password",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

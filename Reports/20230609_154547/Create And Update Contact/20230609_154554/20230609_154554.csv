@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create And Update Contact,Firefox 113.0,,,2023-06-09 15:50:05,2023-06-09 15:50:32,27.116s,PASSED
+,,,,,,,
+Test Cases/updateContact,Firefox 113.0,,,2023-06-09 15:50:08,2023-06-09 15:50:32,24.332s,PASSED
+Start listener action : maximize,Firefox 113.0,,,2023-06-09 15:50:08,2023-06-09 15:50:08,0.297s,PASSED
+Start setup action : login,Firefox 113.0,,,2023-06-09 15:50:08,2023-06-09 15:50:14,6.210s,PASSED
+"verifyMatch(getUrl(), URL, false)",Firefox 113.0,,,2023-06-09 15:50:14,2023-06-09 15:50:14,0.019s,PASSED
+"assert getWindowTitle() == ""Cogmento CRM""",Firefox 113.0,,,2023-06-09 15:50:14,2023-06-09 15:50:14,0.009s,PASSED
+"click(findTestObject(""Object Repository/cogmento/updateContact/Page_Cogmento CRM/i_Calendar_users icon""))",Firefox 113.0,,,2023-06-09 15:50:14,2023-06-09 15:50:18,3.705s,PASSED
+"mouseOver(findTestObject(""cogmento/createContact/i_Free account_settings icon""))",Firefox 113.0,,,2023-06-09 15:50:18,2023-06-09 15:50:19,1.162s,PASSED
+"click(findTestObject(""Object Repository/cogmento/updateContact/Page_Cogmento CRM/a_Kunj Prafulkumar Kaneria""))",Firefox 113.0,,,2023-06-09 15:50:19,2023-06-09 15:50:20,0.492s,PASSED
+"click(findTestObject(""Object Repository/cogmento/updateContact/Page_Cogmento CRM/i_Kunj Kaneria_edit icon""))",Firefox 113.0,,,2023-06-09 15:50:20,2023-06-09 15:50:21,1.644s,PASSED
+"click(findTestObject(""Object Repository/cogmento/updateContact/Page_Cogmento CRM/button_Public""))",Firefox 113.0,,,2023-06-09 15:50:21,2023-06-09 15:50:23,1.333s,PASSED
+"click(findTestObject(""Object Repository/cogmento/updateContact/Page_Cogmento CRM/button_Save""))",Firefox 113.0,,,2023-06-09 15:50:23,2023-06-09 15:50:23,0.518s,PASSED
+"verifyTextPresent(""Only you can see this record."", false)",Firefox 113.0,,,2023-06-09 15:50:23,2023-06-09 15:50:25,1.604s,PASSED
+Start tear down : logout,Firefox 113.0,,,2023-06-09 15:50:25,2023-06-09 15:50:32,7.323s,PASSED
+Start listener action : assertmessage,Firefox 113.0,,,2023-06-09 15:50:32,2023-06-09 15:50:32,0.002s,PASSED

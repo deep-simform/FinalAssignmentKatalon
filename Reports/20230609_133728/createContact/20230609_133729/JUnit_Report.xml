@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="createContact" time="88.221" tests="3" failures="0" errors="0">
+   <testsuite name="createContact" tests="3" failures="0" errors="0" time="88.221" skipped="0" timestamp="2023-06-09 13:37:37" hostname="deep - SF-CPU-460" id="Test Suites/createContact">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/deep/git/FinalAssignmentKatalon/Reports/20230609_133728/createContact/20230609_133729"/>
+         <property name="logFiles" value="/home/deep/git/FinalAssignmentKatalon/Reports/20230609_133728/createContact/20230609_133729/execution0.log"/>
+         <property name="attachments" value="/home/deep/git/FinalAssignmentKatalon/Reports/20230609_133728/createContact/20230609_133729/1686298108788.png, /home/deep/git/FinalAssignmentKatalon/Reports/20230609_133728/createContact/20230609_133729/1686298136020.png"/>
+         <property name="hostName" value="deep - SF-CPU-460"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 109.0.0.0"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="1ce3a9ead8dceba918b2381516711a20"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/createContact" time="30.929" classname="Test Cases/createContact" status="PASSED">
+         <system-out><![CDATA[2023-06-09 13:37:38 - [TEST_CASE][PASSED] - Test Cases/createContact: Test Cases/createContact
+
+2023-06-09 13:37:38 - [TEST_STEP][PASSED] - Start listener action : maximize: Current window maximized
+
+2023-06-09 13:37:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-09 13:37:38 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-09 13:37:38 - [TEST_STEP][PASSED] - Start setup action : login: Method 'login' complete successfully
+
+2023-06-09 13:37:39 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://ui.cogmento.com/' successfully
+
+2023-06-09 13:37:42 - [MESSAGE][PASSED] - Navigate to 'https://ui.cogmento.com/' successfully
+
+2023-06-09 13:37:42 - [TEST_STEP][PASSED] - username_object = "Object Repository/cogmento/createContact/input_Login_email": null
+
+2023-06-09 13:37:42 - [TEST_STEP][PASSED] - password_object = "Object Repository/cogmento/createContact/input_Login_password": null
+
+2023-06-09 13:37:42 - [TEST_STEP][PASSED] - loginBtn_object = "Object Repository/cogmento/createContact/div_Login": null
+
+2023-06-09 13:37:42 - [TEST_STEP][PASSED] - com.LoginCogmento.Login(username_object, password_object, loginBtn_object, username, password): com.LoginCogmento.Login is PASSED
+
+2023-06-09 13:37:44 - [MESSAGE][PASSED] - Text 'deep.p@simformsolutions.com' is set on object 'Object Repository/cogmento/createContact/input_Login_email'
+
+2023-06-09 13:37:44 - [MESSAGE][PASSED] - Text 'Deep@123' is set on object 'Object Repository/cogmento/createContact/input_Login_password'
+
+2023-06-09 13:37:45 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/div_Login' is clicked on
+
+2023-06-09 13:37:45 - [MESSAGE][PASSED] - com.LoginCogmento.Login is PASSED
+
+2023-06-09 13:37:45 - [MESSAGE][PASSED] - Method 'login' complete successfully
+
+2023-06-09 13:37:45 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), URL, false): Actual text 'https://ui.cogmento.com/' and expected text 'https://ui.cogmento.com/' are matched 
+
+2023-06-09 13:37:45 - [MESSAGE][PASSED] - Current window's url is: 'https://ui.cogmento.com/'
+
+2023-06-09 13:37:45 - [MESSAGE][PASSED] - Actual text 'https://ui.cogmento.com/' and expected text 'https://ui.cogmento.com/' are matched 
+
+2023-06-09 13:37:45 - [TEST_STEP][PASSED] - assert getWindowTitle() == "Cogmento CRM": Current window's title is: 'Cogmento CRM'
+
+2023-06-09 13:37:45 - [MESSAGE][PASSED] - Current window's title is: 'Cogmento CRM'
+
+2023-06-09 13:37:45 - [TEST_STEP][PASSED] - doNotTextObject = "Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Text": null
+
+2023-06-09 13:37:45 - [TEST_STEP][PASSED] - doNotMailObject = "Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Email": null
+
+2023-06-09 13:37:45 - [TEST_STEP][PASSED] - doNotCallObject = "Object Repository/cogmento/test/Page_Cogmento CRM/Page_Cogmento CRM/label_Do not Call": null
+
+2023-06-09 13:37:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/i_Calendar_users icon")): Object: 'Object Repository/cogmento/createContact/i_Calendar_users icon' is clicked on
+
+2023-06-09 13:37:49 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/i_Calendar_users icon' is clicked on
+
+2023-06-09 13:37:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/button_Create")): Object: 'Object Repository/cogmento/createContact/button_Create' is clicked on
+
+2023-06-09 13:37:51 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/button_Create' is clicked on
+
+2023-06-09 13:37:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/createContact/input_First Name_first_name"), FirstName): Text 'Deep' is set on object 'Object Repository/cogmento/createContact/input_First Name_first_name'
+
+2023-06-09 13:37:52 - [MESSAGE][PASSED] - Text 'Deep' is set on object 'Object Repository/cogmento/createContact/input_First Name_first_name'
+
+2023-06-09 13:37:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/createContact/input_Last Name_last_name"), LastName): Text 'Patel' is set on object 'Object Repository/cogmento/createContact/input_Last Name_last_name'
+
+2023-06-09 13:37:53 - [MESSAGE][PASSED] - Text 'Patel' is set on object 'Object Repository/cogmento/createContact/input_Last Name_last_name'
+
+2023-06-09 13:37:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/test/Page_Cogmento CRM/input_Middle Name(s)_middle_name"), MiddleName): Text 'Rakeshbhai' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_Middle Name(s)_middle_name'
+
+2023-06-09 13:37:55 - [MESSAGE][PASSED] - Text 'Rakeshbhai' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_Middle Name(s)_middle_name'
+
+2023-06-09 13:37:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/test/Page_Cogmento CRM/input_Email_value"), Email): Text 'deep@gmail.com' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_Email_value'
+
+2023-06-09 13:37:56 - [MESSAGE][PASSED] - Text 'deep@gmail.com' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_Email_value'
+
+2023-06-09 13:37:56 - [TEST_STEP][PASSED] - com.LoginCogmento.DoNotText(doNotCallObject, Call, "Do not Call"): com.LoginCogmento.DoNotText is PASSED
+
+2023-06-09 13:37:56 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/test/Page_Cogmento CRM/Page_Cogmento CRM/label_Do not Call' is clicked on
+
+2023-06-09 13:37:56 - [MESSAGE][PASSED] - com.LoginCogmento.DoNotText is PASSED
+
+2023-06-09 13:37:56 - [TEST_STEP][PASSED] - com.LoginCogmento.DoNotText(doNotTextObject, Text, "Do not Text"): com.LoginCogmento.DoNotText is PASSED
+
+2023-06-09 13:37:57 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Text' is clicked on
+
+2023-06-09 13:37:57 - [MESSAGE][PASSED] - com.LoginCogmento.DoNotText is PASSED
+
+2023-06-09 13:37:57 - [TEST_STEP][PASSED] - com.LoginCogmento.DoNotText(doNotMailObject, DoEmail, "Do not Mail"): com.LoginCogmento.DoNotText is PASSED
+
+2023-06-09 13:37:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='ui toggle checkbox']//label[contains(text(),'Do not Mail')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-09 13:37:58 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Email'. Try using Self-healing.
+
+2023-06-09 13:37:58 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Email' was broken. Propose an alternative one: '//div[@id='main-content']/div/div[2]/form/div[12]/div/div/div/label'.
+
+2023-06-09 13:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Email' is clicked on
+
+2023-06-09 13:37:59 - [MESSAGE][PASSED] - com.LoginCogmento.DoNotText is PASSED
+
+2023-06-09 13:37:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/test/Page_Cogmento CRM/input_Birthday_day"), BirthDay): Text '22' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_Birthday_day'
+
+2023-06-09 13:37:59 - [MESSAGE][PASSED] - Text '22' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_Birthday_day'
+
+2023-06-09 13:37:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/test/Page_Cogmento CRM/div_October JanuaryFebruaryMarchAprilMayJun_aa3d2b")): Object: 'Object Repository/cogmento/test/Page_Cogmento CRM/div_October JanuaryFebruaryMarchAprilMayJun_aa3d2b' is clicked on
+
+2023-06-09 13:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/test/Page_Cogmento CRM/div_October JanuaryFebruaryMarchAprilMayJun_aa3d2b' is clicked on
+
+2023-06-09 13:38:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/test/Page_Cogmento CRM/span_December", ["EmpMonth":BirthMonth])): Object: 'Object Repository/cogmento/test/Page_Cogmento CRM/span_December' is clicked on
+
+2023-06-09 13:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/test/Page_Cogmento CRM/span_December' is clicked on
+
+2023-06-09 13:38:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/test/Page_Cogmento CRM/input_December_year"), BirthYear): Text '2001' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_December_year'
+
+2023-06-09 13:38:01 - [MESSAGE][PASSED] - Text '2001' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_December_year'
+
+2023-06-09 13:38:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/button_Save")): Object: 'Object Repository/cogmento/createContact/button_Save' is clicked on
+
+2023-06-09 13:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/button_Save' is clicked on
+
+2023-06-09 13:38:02 - [TEST_STEP][PASSED] - try: Text 'Deep Patel' is present on page 
+
+2023-06-09 13:38:02 - [TEST_STEP][PASSED] - verifyTextPresent(FirstName + " " + LastName, false): Text 'Deep Patel' is present on page 
+
+2023-06-09 13:38:03 - [MESSAGE][PASSED] - Text 'Deep Patel' is present on page 
+
+2023-06-09 13:38:03 - [TEST_STEP][PASSED] - Start tear down : logout: Method 'logout' complete successfully
+
+2023-06-09 13:38:03 - [TEST_STEP][PASSED] - try: Text 'Forgot your password?' is present on page 
+
+2023-06-09 13:38:03 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-06-09 13:38:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-06-09 13:38:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/i_Free account_settings icon")): Object: 'Object Repository/cogmento/createContact/i_Free account_settings icon' is clicked on
+
+2023-06-09 13:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/i_Free account_settings icon' is clicked on
+
+2023-06-09 13:38:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/span_Log Out")): Object: 'Object Repository/cogmento/createContact/span_Log Out' is clicked on
+
+2023-06-09 13:38:05 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/span_Log Out' is clicked on
+
+2023-06-09 13:38:05 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-06-09 13:38:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-06-09 13:38:05 - [TEST_STEP][PASSED] - verifyTextPresent("Forgot your password?", false): Text 'Forgot your password?' is present on page 
+
+2023-06-09 13:38:09 - [MESSAGE][PASSED] - Text 'Forgot your password?' is present on page 
+
+2023-06-09 13:38:09 - [MESSAGE][PASSED] - Method 'logout' complete successfully
+
+2023-06-09 13:38:09 - [TEST_STEP][PASSED] - Start listener action : assertmessage: null
+
+2023-06-09 13:38:09 - [TEST_STEP][PASSED] - println("Testcase Run successfully."): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/createContact" time="26.598" classname="Test Cases/createContact" status="PASSED">
+         <system-out><![CDATA[2023-06-09 13:38:09 - [TEST_CASE][PASSED] - Test Cases/createContact: Test Cases/createContact
+
+2023-06-09 13:38:09 - [TEST_STEP][PASSED] - Start listener action : maximize: Current window maximized
+
+2023-06-09 13:38:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-09 13:38:09 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-09 13:38:09 - [TEST_STEP][PASSED] - Start setup action : login: Method 'login' complete successfully
+
+2023-06-09 13:38:09 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://ui.cogmento.com/' successfully
+
+2023-06-09 13:38:10 - [MESSAGE][PASSED] - Navigate to 'https://ui.cogmento.com/' successfully
+
+2023-06-09 13:38:10 - [TEST_STEP][PASSED] - username_object = "Object Repository/cogmento/createContact/input_Login_email": null
+
+2023-06-09 13:38:10 - [TEST_STEP][PASSED] - password_object = "Object Repository/cogmento/createContact/input_Login_password": null
+
+2023-06-09 13:38:10 - [TEST_STEP][PASSED] - loginBtn_object = "Object Repository/cogmento/createContact/div_Login": null
+
+2023-06-09 13:38:10 - [TEST_STEP][PASSED] - com.LoginCogmento.Login(username_object, password_object, loginBtn_object, username, password): com.LoginCogmento.Login is PASSED
+
+2023-06-09 13:38:11 - [MESSAGE][PASSED] - Text 'deep.p@simformsolutions.com' is set on object 'Object Repository/cogmento/createContact/input_Login_email'
+
+2023-06-09 13:38:12 - [MESSAGE][PASSED] - Text 'Deep@123' is set on object 'Object Repository/cogmento/createContact/input_Login_password'
+
+2023-06-09 13:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/div_Login' is clicked on
+
+2023-06-09 13:38:13 - [MESSAGE][PASSED] - com.LoginCogmento.Login is PASSED
+
+2023-06-09 13:38:13 - [MESSAGE][PASSED] - Method 'login' complete successfully
+
+2023-06-09 13:38:13 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), URL, false): Actual text 'https://ui.cogmento.com/' and expected text 'https://ui.cogmento.com/' are matched 
+
+2023-06-09 13:38:13 - [MESSAGE][PASSED] - Current window's url is: 'https://ui.cogmento.com/'
+
+2023-06-09 13:38:13 - [MESSAGE][PASSED] - Actual text 'https://ui.cogmento.com/' and expected text 'https://ui.cogmento.com/' are matched 
+
+2023-06-09 13:38:13 - [TEST_STEP][PASSED] - assert getWindowTitle() == "Cogmento CRM": Current window's title is: 'Cogmento CRM'
+
+2023-06-09 13:38:13 - [MESSAGE][PASSED] - Current window's title is: 'Cogmento CRM'
+
+2023-06-09 13:38:13 - [TEST_STEP][PASSED] - doNotTextObject = "Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Text": null
+
+2023-06-09 13:38:13 - [TEST_STEP][PASSED] - doNotMailObject = "Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Email": null
+
+2023-06-09 13:38:13 - [TEST_STEP][PASSED] - doNotCallObject = "Object Repository/cogmento/test/Page_Cogmento CRM/Page_Cogmento CRM/label_Do not Call": null
+
+2023-06-09 13:38:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/i_Calendar_users icon")): Object: 'Object Repository/cogmento/createContact/i_Calendar_users icon' is clicked on
+
+2023-06-09 13:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/i_Calendar_users icon' is clicked on
+
+2023-06-09 13:38:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/button_Create")): Object: 'Object Repository/cogmento/createContact/button_Create' is clicked on
+
+2023-06-09 13:38:16 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/button_Create' is clicked on
+
+2023-06-09 13:38:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/createContact/input_First Name_first_name"), FirstName): Text 'Dharm' is set on object 'Object Repository/cogmento/createContact/input_First Name_first_name'
+
+2023-06-09 13:38:18 - [MESSAGE][PASSED] - Text 'Dharm' is set on object 'Object Repository/cogmento/createContact/input_First Name_first_name'
+
+2023-06-09 13:38:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/createContact/input_Last Name_last_name"), LastName): Text 'Patel' is set on object 'Object Repository/cogmento/createContact/input_Last Name_last_name'
+
+2023-06-09 13:38:19 - [MESSAGE][PASSED] - Text 'Patel' is set on object 'Object Repository/cogmento/createContact/input_Last Name_last_name'
+
+2023-06-09 13:38:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/test/Page_Cogmento CRM/input_Middle Name(s)_middle_name"), MiddleName): Text 'Keyurkumar' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_Middle Name(s)_middle_name'
+
+2023-06-09 13:38:20 - [MESSAGE][PASSED] - Text 'Keyurkumar' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_Middle Name(s)_middle_name'
+
+2023-06-09 13:38:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/test/Page_Cogmento CRM/input_Email_value"), Email): Text 'dharm@gmail.com' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_Email_value'
+
+2023-06-09 13:38:21 - [MESSAGE][PASSED] - Text 'dharm@gmail.com' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_Email_value'
+
+2023-06-09 13:38:21 - [TEST_STEP][PASSED] - com.LoginCogmento.DoNotText(doNotCallObject, Call, "Do not Call"): com.LoginCogmento.DoNotText is PASSED
+
+2023-06-09 13:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/test/Page_Cogmento CRM/Page_Cogmento CRM/label_Do not Call' is clicked on
+
+2023-06-09 13:38:22 - [MESSAGE][PASSED] - com.LoginCogmento.DoNotText is PASSED
+
+2023-06-09 13:38:22 - [TEST_STEP][PASSED] - com.LoginCogmento.DoNotText(doNotTextObject, Text, "Do not Text"): com.LoginCogmento.DoNotText is PASSED
+
+2023-06-09 13:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Text' is clicked on
+
+2023-06-09 13:38:22 - [MESSAGE][PASSED] - com.LoginCogmento.DoNotText is PASSED
+
+2023-06-09 13:38:22 - [TEST_STEP][PASSED] - com.LoginCogmento.DoNotText(doNotMailObject, DoEmail, "Do not Mail"): com.LoginCogmento.DoNotText is PASSED
+
+2023-06-09 13:38:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='ui toggle checkbox']//label[contains(text(),'Do not Mail')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-09 13:38:23 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Email'. Try using Self-healing.
+
+2023-06-09 13:38:24 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Email' was broken. Propose an alternative one: '//div[@id='main-content']/div/div[2]/form/div[12]/div/div/div/label'.
+
+2023-06-09 13:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Email' is clicked on
+
+2023-06-09 13:38:24 - [MESSAGE][PASSED] - com.LoginCogmento.DoNotText is PASSED
+
+2023-06-09 13:38:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/test/Page_Cogmento CRM/input_Birthday_day"), BirthDay): Text '13' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_Birthday_day'
+
+2023-06-09 13:38:25 - [MESSAGE][PASSED] - Text '13' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_Birthday_day'
+
+2023-06-09 13:38:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/test/Page_Cogmento CRM/div_October JanuaryFebruaryMarchAprilMayJun_aa3d2b")): Object: 'Object Repository/cogmento/test/Page_Cogmento CRM/div_October JanuaryFebruaryMarchAprilMayJun_aa3d2b' is clicked on
+
+2023-06-09 13:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/test/Page_Cogmento CRM/div_October JanuaryFebruaryMarchAprilMayJun_aa3d2b' is clicked on
+
+2023-06-09 13:38:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/test/Page_Cogmento CRM/span_December", ["EmpMonth":BirthMonth])): Object: 'Object Repository/cogmento/test/Page_Cogmento CRM/span_December' is clicked on
+
+2023-06-09 13:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/test/Page_Cogmento CRM/span_December' is clicked on
+
+2023-06-09 13:38:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/test/Page_Cogmento CRM/input_December_year"), BirthYear): Text '2002' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_December_year'
+
+2023-06-09 13:38:27 - [MESSAGE][PASSED] - Text '2002' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_December_year'
+
+2023-06-09 13:38:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/button_Save")): Object: 'Object Repository/cogmento/createContact/button_Save' is clicked on
+
+2023-06-09 13:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/button_Save' is clicked on
+
+2023-06-09 13:38:27 - [TEST_STEP][FAILED] - try: Unable to verify text 'Dharm Patel' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Dharm Patel' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at createContact.run(createContact:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686298049960.run(TempTestSuite1686298049960.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Dharm Patel' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-06-09 13:38:27 - [TEST_STEP][FAILED] - verifyTextPresent(FirstName + " " + LastName, false): Unable to verify text 'Dharm Patel' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Dharm Patel' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at createContact.run(createContact:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686298049960.run(TempTestSuite1686298049960.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Dharm Patel' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-06-09 13:38:28 - [MESSAGE][FAILED] - Text 'Dharm Patel' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Dharm Patel' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at createContact.run(createContact:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686298049960.run(TempTestSuite1686298049960.groovy:36)
+)
+
+2023-06-09 13:38:28 - [MESSAGE][FAILED] - Unable to verify text 'Dharm Patel' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Dharm Patel' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at createContact.run(createContact:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686298049960.run(TempTestSuite1686298049960.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Dharm Patel' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|/home/deep/git/FinalAssignmentKatalon/Reports/20230609_133728/createContact/20230609_133729/1686298108788.png]]
+
+2023-06-09 13:38:28 - [TEST_STEP][PASSED] - catch (Exception e): Text 'Dharm Patel' is present on page 
+
+2023-06-09 13:38:28 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-06-09 13:38:30 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-06-09 13:38:30 - [TEST_STEP][PASSED] - verifyTextPresent(FirstName + " " + LastName, false): Text 'Dharm Patel' is present on page 
+
+2023-06-09 13:38:31 - [MESSAGE][PASSED] - Text 'Dharm Patel' is present on page 
+
+2023-06-09 13:38:31 - [TEST_STEP][PASSED] - Start tear down : logout: Method 'logout' complete successfully
+
+2023-06-09 13:38:31 - [TEST_STEP][PASSED] - try: Text 'Forgot your password?' is present on page 
+
+2023-06-09 13:38:31 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-06-09 13:38:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-06-09 13:38:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/i_Free account_settings icon")): Object: 'Object Repository/cogmento/createContact/i_Free account_settings icon' is clicked on
+
+2023-06-09 13:38:32 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/i_Free account_settings icon' is clicked on
+
+2023-06-09 13:38:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/span_Log Out")): Object: 'Object Repository/cogmento/createContact/span_Log Out' is clicked on
+
+2023-06-09 13:38:32 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/span_Log Out' is clicked on
+
+2023-06-09 13:38:32 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-06-09 13:38:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-06-09 13:38:32 - [TEST_STEP][PASSED] - verifyTextPresent("Forgot your password?", false): Text 'Forgot your password?' is present on page 
+
+2023-06-09 13:38:36 - [MESSAGE][PASSED] - Text 'Forgot your password?' is present on page 
+
+2023-06-09 13:38:36 - [MESSAGE][PASSED] - Method 'logout' complete successfully
+
+2023-06-09 13:38:36 - [TEST_STEP][PASSED] - Start listener action : assertmessage: null
+
+2023-06-09 13:38:36 - [TEST_STEP][PASSED] - println("Testcase Run successfully."): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/createContact" time="29.05" classname="Test Cases/createContact" status="PASSED">
+         <system-out><![CDATA[2023-06-09 13:38:36 - [TEST_CASE][PASSED] - Test Cases/createContact: Test Cases/createContact
+
+2023-06-09 13:38:36 - [TEST_STEP][PASSED] - Start listener action : maximize: Current window maximized
+
+2023-06-09 13:38:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-06-09 13:38:36 - [MESSAGE][PASSED] - Current window maximized
+
+2023-06-09 13:38:36 - [TEST_STEP][PASSED] - Start setup action : login: Method 'login' complete successfully
+
+2023-06-09 13:38:36 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://ui.cogmento.com/' successfully
+
+2023-06-09 13:38:37 - [MESSAGE][PASSED] - Navigate to 'https://ui.cogmento.com/' successfully
+
+2023-06-09 13:38:37 - [TEST_STEP][PASSED] - username_object = "Object Repository/cogmento/createContact/input_Login_email": null
+
+2023-06-09 13:38:37 - [TEST_STEP][PASSED] - password_object = "Object Repository/cogmento/createContact/input_Login_password": null
+
+2023-06-09 13:38:37 - [TEST_STEP][PASSED] - loginBtn_object = "Object Repository/cogmento/createContact/div_Login": null
+
+2023-06-09 13:38:37 - [TEST_STEP][PASSED] - com.LoginCogmento.Login(username_object, password_object, loginBtn_object, username, password): com.LoginCogmento.Login is PASSED
+
+2023-06-09 13:38:38 - [MESSAGE][PASSED] - Text 'deep.p@simformsolutions.com' is set on object 'Object Repository/cogmento/createContact/input_Login_email'
+
+2023-06-09 13:38:39 - [MESSAGE][PASSED] - Text 'Deep@123' is set on object 'Object Repository/cogmento/createContact/input_Login_password'
+
+2023-06-09 13:38:39 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/div_Login' is clicked on
+
+2023-06-09 13:38:39 - [MESSAGE][PASSED] - com.LoginCogmento.Login is PASSED
+
+2023-06-09 13:38:39 - [MESSAGE][PASSED] - Method 'login' complete successfully
+
+2023-06-09 13:38:39 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), URL, false): Actual text 'https://ui.cogmento.com/' and expected text 'https://ui.cogmento.com/' are matched 
+
+2023-06-09 13:38:40 - [MESSAGE][PASSED] - Current window's url is: 'https://ui.cogmento.com/'
+
+2023-06-09 13:38:40 - [MESSAGE][PASSED] - Actual text 'https://ui.cogmento.com/' and expected text 'https://ui.cogmento.com/' are matched 
+
+2023-06-09 13:38:40 - [TEST_STEP][PASSED] - assert getWindowTitle() == "Cogmento CRM": Current window's title is: 'Cogmento CRM'
+
+2023-06-09 13:38:40 - [MESSAGE][PASSED] - Current window's title is: 'Cogmento CRM'
+
+2023-06-09 13:38:40 - [TEST_STEP][PASSED] - doNotTextObject = "Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Text": null
+
+2023-06-09 13:38:40 - [TEST_STEP][PASSED] - doNotMailObject = "Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Email": null
+
+2023-06-09 13:38:40 - [TEST_STEP][PASSED] - doNotCallObject = "Object Repository/cogmento/test/Page_Cogmento CRM/Page_Cogmento CRM/label_Do not Call": null
+
+2023-06-09 13:38:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/i_Calendar_users icon")): Object: 'Object Repository/cogmento/createContact/i_Calendar_users icon' is clicked on
+
+2023-06-09 13:38:42 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/i_Calendar_users icon' is clicked on
+
+2023-06-09 13:38:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/button_Create")): Object: 'Object Repository/cogmento/createContact/button_Create' is clicked on
+
+2023-06-09 13:38:43 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/button_Create' is clicked on
+
+2023-06-09 13:38:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/createContact/input_First Name_first_name"), FirstName): Text 'Kunj' is set on object 'Object Repository/cogmento/createContact/input_First Name_first_name'
+
+2023-06-09 13:38:45 - [MESSAGE][PASSED] - Text 'Kunj' is set on object 'Object Repository/cogmento/createContact/input_First Name_first_name'
+
+2023-06-09 13:38:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/createContact/input_Last Name_last_name"), LastName): Text 'Kaneria' is set on object 'Object Repository/cogmento/createContact/input_Last Name_last_name'
+
+2023-06-09 13:38:46 - [MESSAGE][PASSED] - Text 'Kaneria' is set on object 'Object Repository/cogmento/createContact/input_Last Name_last_name'
+
+2023-06-09 13:38:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/test/Page_Cogmento CRM/input_Middle Name(s)_middle_name"), MiddleName): Text 'Prafulkumar' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_Middle Name(s)_middle_name'
+
+2023-06-09 13:38:47 - [MESSAGE][PASSED] - Text 'Prafulkumar' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_Middle Name(s)_middle_name'
+
+2023-06-09 13:38:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/test/Page_Cogmento CRM/input_Email_value"), Email): Text 'kunj@gmail.com' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_Email_value'
+
+2023-06-09 13:38:48 - [MESSAGE][PASSED] - Text 'kunj@gmail.com' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_Email_value'
+
+2023-06-09 13:38:48 - [TEST_STEP][PASSED] - com.LoginCogmento.DoNotText(doNotCallObject, Call, "Do not Call"): com.LoginCogmento.DoNotText is PASSED
+
+2023-06-09 13:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/test/Page_Cogmento CRM/Page_Cogmento CRM/label_Do not Call' is clicked on
+
+2023-06-09 13:38:49 - [MESSAGE][PASSED] - com.LoginCogmento.DoNotText is PASSED
+
+2023-06-09 13:38:49 - [TEST_STEP][PASSED] - com.LoginCogmento.DoNotText(doNotTextObject, Text, "Do not Text"): com.LoginCogmento.DoNotText is PASSED
+
+2023-06-09 13:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Text' is clicked on
+
+2023-06-09 13:38:49 - [MESSAGE][PASSED] - com.LoginCogmento.DoNotText is PASSED
+
+2023-06-09 13:38:49 - [TEST_STEP][PASSED] - com.LoginCogmento.DoNotText(doNotMailObject, DoEmail, "Do not Mail"): com.LoginCogmento.DoNotText is PASSED
+
+2023-06-09 13:38:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='ui toggle checkbox']//label[contains(text(),'Do not Mail')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-06-09 13:38:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Email'. Try using Self-healing.
+
+2023-06-09 13:38:51 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Email' was broken. Propose an alternative one: '//div[@id='main-content']/div/div[2]/form/div[12]/div/div/div/label'.
+
+2023-06-09 13:38:51 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/test/Page_Cogmento CRM/label_Do not Email' is clicked on
+
+2023-06-09 13:38:51 - [MESSAGE][PASSED] - com.LoginCogmento.DoNotText is PASSED
+
+2023-06-09 13:38:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/test/Page_Cogmento CRM/input_Birthday_day"), BirthDay): Text '24' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_Birthday_day'
+
+2023-06-09 13:38:52 - [MESSAGE][PASSED] - Text '24' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_Birthday_day'
+
+2023-06-09 13:38:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/test/Page_Cogmento CRM/div_October JanuaryFebruaryMarchAprilMayJun_aa3d2b")): Object: 'Object Repository/cogmento/test/Page_Cogmento CRM/div_October JanuaryFebruaryMarchAprilMayJun_aa3d2b' is clicked on
+
+2023-06-09 13:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/test/Page_Cogmento CRM/div_October JanuaryFebruaryMarchAprilMayJun_aa3d2b' is clicked on
+
+2023-06-09 13:38:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/test/Page_Cogmento CRM/span_December", ["EmpMonth":BirthMonth])): Object: 'Object Repository/cogmento/test/Page_Cogmento CRM/span_December' is clicked on
+
+2023-06-09 13:38:53 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/test/Page_Cogmento CRM/span_December' is clicked on
+
+2023-06-09 13:38:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/cogmento/test/Page_Cogmento CRM/input_December_year"), BirthYear): Text '2003' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_December_year'
+
+2023-06-09 13:38:54 - [MESSAGE][PASSED] - Text '2003' is set on object 'Object Repository/cogmento/test/Page_Cogmento CRM/input_December_year'
+
+2023-06-09 13:38:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/button_Save")): Object: 'Object Repository/cogmento/createContact/button_Save' is clicked on
+
+2023-06-09 13:38:55 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/button_Save' is clicked on
+
+2023-06-09 13:38:55 - [TEST_STEP][FAILED] - try: Unable to verify text 'Kunj Kaneria' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Kunj Kaneria' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at createContact.run(createContact:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686298049960.run(TempTestSuite1686298049960.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Kunj Kaneria' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-06-09 13:38:55 - [TEST_STEP][FAILED] - verifyTextPresent(FirstName + " " + LastName, false): Unable to verify text 'Kunj Kaneria' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Kunj Kaneria' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at createContact.run(createContact:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686298049960.run(TempTestSuite1686298049960.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Kunj Kaneria' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-06-09 13:38:56 - [MESSAGE][FAILED] - Text 'Kunj Kaneria' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Kunj Kaneria' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at createContact.run(createContact:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686298049960.run(TempTestSuite1686298049960.groovy:36)
+)
+
+2023-06-09 13:38:56 - [MESSAGE][FAILED] - Unable to verify text 'Kunj Kaneria' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Kunj Kaneria' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at createContact.run(createContact:67)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1686298049960.run(TempTestSuite1686298049960.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Kunj Kaneria' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|/home/deep/git/FinalAssignmentKatalon/Reports/20230609_133728/createContact/20230609_133729/1686298136020.png]]
+
+2023-06-09 13:38:56 - [TEST_STEP][PASSED] - catch (Exception e): Text 'Kunj Kaneria' is present on page 
+
+2023-06-09 13:38:56 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-06-09 13:38:59 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-06-09 13:38:59 - [TEST_STEP][PASSED] - verifyTextPresent(FirstName + " " + LastName, false): Text 'Kunj Kaneria' is present on page 
+
+2023-06-09 13:39:01 - [MESSAGE][PASSED] - Text 'Kunj Kaneria' is present on page 
+
+2023-06-09 13:39:01 - [TEST_STEP][PASSED] - Start tear down : logout: Method 'logout' complete successfully
+
+2023-06-09 13:39:01 - [TEST_STEP][PASSED] - try: Text 'Forgot your password?' is present on page 
+
+2023-06-09 13:39:01 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-06-09 13:39:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-06-09 13:39:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/i_Free account_settings icon")): Object: 'Object Repository/cogmento/createContact/i_Free account_settings icon' is clicked on
+
+2023-06-09 13:39:01 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/i_Free account_settings icon' is clicked on
+
+2023-06-09 13:39:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cogmento/createContact/span_Log Out")): Object: 'Object Repository/cogmento/createContact/span_Log Out' is clicked on
+
+2023-06-09 13:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/cogmento/createContact/span_Log Out' is clicked on
+
+2023-06-09 13:39:02 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2023-06-09 13:39:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-06-09 13:39:02 - [TEST_STEP][PASSED] - verifyTextPresent("Forgot your password?", false): Text 'Forgot your password?' is present on page 
+
+2023-06-09 13:39:05 - [MESSAGE][PASSED] - Text 'Forgot your password?' is present on page 
+
+2023-06-09 13:39:05 - [MESSAGE][PASSED] - Method 'logout' complete successfully
+
+2023-06-09 13:39:05 - [TEST_STEP][PASSED] - Start listener action : assertmessage: null
+
+2023-06-09 13:39:05 - [TEST_STEP][PASSED] - println("Testcase Run successfully."): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-09 13:37:37 - [TEST_SUITE][PASSED] - createContact: Test Cases/createContact]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

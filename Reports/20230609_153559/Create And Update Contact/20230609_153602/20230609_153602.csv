@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create And Update Contact,Chrome 109.0.0.0,,,2023-06-09 15:37:54,2023-06-09 15:38:17,22.188s,PASSED
+,,,,,,,
+Test Cases/updateContact,Chrome 109.0.0.0,,,2023-06-09 15:37:56,2023-06-09 15:38:17,21.133s,PASSED
+Start listener action : maximize,Chrome 109.0.0.0,,,2023-06-09 15:37:56,2023-06-09 15:37:56,0.118s,PASSED
+Start setup action : login,Chrome 109.0.0.0,,,2023-06-09 15:37:56,2023-06-09 15:38:01,5.519s,PASSED
+"verifyMatch(getUrl(), URL, false)",Chrome 109.0.0.0,,,2023-06-09 15:38:01,2023-06-09 15:38:01,0.035s,PASSED
+"assert getWindowTitle() == ""Cogmento CRM""",Chrome 109.0.0.0,,,2023-06-09 15:38:01,2023-06-09 15:38:01,0.013s,PASSED
+"click(findTestObject(""Object Repository/cogmento/updateContact/Page_Cogmento CRM/i_Calendar_users icon""))",Chrome 109.0.0.0,,,2023-06-09 15:38:01,2023-06-09 15:38:05,4.081s,PASSED
+"mouseOver(findTestObject(""cogmento/createContact/i_Free account_settings icon""))",Chrome 109.0.0.0,,,2023-06-09 15:38:05,2023-06-09 15:38:07,1.521s,PASSED
+"click(findTestObject(""Object Repository/cogmento/updateContact/Page_Cogmento CRM/a_Kunj Prafulkumar Kaneria""))",Chrome 109.0.0.0,,,2023-06-09 15:38:07,2023-06-09 15:38:07,0.368s,PASSED
+"click(findTestObject(""Object Repository/cogmento/updateContact/Page_Cogmento CRM/i_Kunj Kaneria_edit icon""))",Chrome 109.0.0.0,,,2023-06-09 15:38:07,2023-06-09 15:38:09,1.906s,PASSED
+"click(findTestObject(""Object Repository/cogmento/updateContact/Page_Cogmento CRM/button_Public""))",Chrome 109.0.0.0,,,2023-06-09 15:38:09,2023-06-09 15:38:10,1.066s,PASSED
+"click(findTestObject(""Object Repository/cogmento/updateContact/Page_Cogmento CRM/button_Save""))",Chrome 109.0.0.0,,,2023-06-09 15:38:10,2023-06-09 15:38:11,0.630s,PASSED
+"verifyTextPresent(""Only you can see this record."", false)",Chrome 109.0.0.0,,,2023-06-09 15:38:11,2023-06-09 15:38:12,1.425s,PASSED
+Start tear down : logout,Chrome 109.0.0.0,,,2023-06-09 15:38:12,2023-06-09 15:38:17,4.429s,PASSED
+Start listener action : assertmessage,Chrome 109.0.0.0,,,2023-06-09 15:38:17,2023-06-09 15:38:17,0.002s,PASSED

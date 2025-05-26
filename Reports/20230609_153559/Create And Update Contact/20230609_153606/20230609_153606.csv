@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create And Update Contact,Firefox 113.0,,,2023-06-09 15:40:54,2023-06-09 15:41:37,42.889s,ERROR
+,,,,,,,
+Test Cases/updateContact,Firefox 113.0,,,2023-06-09 15:41:27,2023-06-09 15:41:37,9.825s,ERROR
+Start listener action : maximize,Firefox 113.0,,,2023-06-09 15:41:27,2023-06-09 15:41:27,0.007s,PASSED
+Start setup action : login,Firefox 113.0,,,2023-06-09 15:41:27,2023-06-09 15:41:27,0.100s,ERROR
+Start tear down : logout,Firefox 113.0,,,2023-06-09 15:41:27,2023-06-09 15:41:37,9.708s,PASSED
+Start listener action : assertmessage,Firefox 113.0,,,2023-06-09 15:41:37,2023-06-09 15:41:37,0.001s,PASSED
